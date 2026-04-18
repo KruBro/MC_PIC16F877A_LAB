@@ -1,0 +1,4 @@
+/home/krubro/Desktop/Emertxe/MC-Assignments/AS-06/_build/AS-06/default/CMakeFiles/AS_06_default_default_XC8_compile.dir
+/home/krubro/Desktop/Emertxe/MC-Assignments/AS-06/_build/AS-06/default/CMakeFiles/AS_06_default_image_coOg0iPQ.dir
+/home/krubro/Desktop/Emertxe/MC-Assignments/AS-06/_build/AS-06/default/CMakeFiles/edit_cache.dir
+/home/krubro/Desktop/Emertxe/MC-Assignments/AS-06/_build/AS-06/default/CMakeFiles/rebuild_cache.dir

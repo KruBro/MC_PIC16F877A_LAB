@@ -1,0 +1,17 @@
+# ninja log v7
+3	125	1776197741308281808	CMakeFiles/AS_07_default_default_XC8_compile.dir/home/krubro/Desktop/Emertxe/MC-Assignments/AS-07/timer2.c.p1	71bc46f3ddc66895
+2	125	1776197741307448532	CMakeFiles/AS_07_default_default_XC8_compile.dir/home/krubro/Desktop/Emertxe/MC-Assignments/AS-07/timer0.c.p1	cdcaf88f5929b
+2	125	1776197741307785935	CMakeFiles/AS_07_default_default_XC8_compile.dir/home/krubro/Desktop/Emertxe/MC-Assignments/AS-07/timer1.c.p1	4ce08c74ccd75c05
+1	126	1776197741307053020	CMakeFiles/AS_07_default_default_XC8_compile.dir/home/krubro/Desktop/Emertxe/MC-Assignments/AS-07/main.c.p1	61abb1632ab04a09
+1	81	1776197783229132308	CMakeFiles/AS_07_default_default_XC8_compile.dir/home/krubro/Desktop/Emertxe/MC-Assignments/AS-07/isr.c.p1	4e53b1cbb1ff052c
+81	578	1776197783309652073	/home/krubro/Desktop/Emertxe/MC-Assignments/AS-07/out/AS-07/production/default-production.elf	89e74d9681f67078
+1	77	1776198063572729008	CMakeFiles/AS_07_default_default_XC8_compile.dir/home/krubro/Desktop/Emertxe/MC-Assignments/AS-07/isr.c.p1	4e53b1cbb1ff052c
+78	595	1776198063649728073	/home/krubro/Desktop/Emertxe/MC-Assignments/AS-07/out/AS-07/production/default-production.elf	89e74d9681f67078
+1	84	1776198114697108371	CMakeFiles/AS_07_default_default_XC8_compile.dir/home/krubro/Desktop/Emertxe/MC-Assignments/AS-07/main.c.p1	61abb1632ab04a09
+84	587	1776198114780107363	/home/krubro/Desktop/Emertxe/MC-Assignments/AS-07/out/AS-07/production/default-production.elf	89e74d9681f67078
+2	87	1776198207087949194	CMakeFiles/AS_07_default_default_XC8_compile.dir/home/krubro/Desktop/Emertxe/MC-Assignments/AS-07/timer2.c.p1	71bc46f3ddc66895
+1	123	1776198254425412105	CMakeFiles/AS_07_default_default_XC8_compile.dir/home/krubro/Desktop/Emertxe/MC-Assignments/AS-07/isr.c.p1	4e53b1cbb1ff052c
+124	688	1776198254548410611	/home/krubro/Desktop/Emertxe/MC-Assignments/AS-07/out/AS-07/production/default-production.elf	89e74d9681f67078
+2	82	1776198419796404543	CMakeFiles/AS_07_default_default_XC8_compile.dir/home/krubro/Desktop/Emertxe/MC-Assignments/AS-07/isr.c.p1	4e53b1cbb1ff052c
+2	88	1776198419797905782	CMakeFiles/AS_07_default_default_XC8_compile.dir/home/krubro/Desktop/Emertxe/MC-Assignments/AS-07/main.c.p1	61abb1632ab04a09
+88	599	1776198419882452946	/home/krubro/Desktop/Emertxe/MC-Assignments/AS-07/out/AS-07/production/default-production.elf	89e74d9681f67078

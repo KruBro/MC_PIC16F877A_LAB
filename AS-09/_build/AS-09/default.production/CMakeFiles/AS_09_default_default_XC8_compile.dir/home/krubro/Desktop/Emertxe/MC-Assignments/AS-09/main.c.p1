@@ -1,0 +1,242 @@
+Version 4.0 HI-TECH Software Intermediate Code
+[p mainexit ]
+"2227 /home/krubro/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8/pic/include/proc/pic16f877a.h
+[v _ADCON1 `Vuc ~T0 @X0 0 e@159 ]
+"19 /home/krubro/Desktop/Emertxe/MC-Assignments/AS-09/clcd.h
+[v _LCD_Init `(v ~T0 @X0 0 ef ]
+"24
+[v _LCD_SetCursor `(v ~T0 @X0 0 ef2`uc`uc ]
+"22
+[v _LCD_String `(v ~T0 @X0 0 ef1`*Cuc ]
+"5 /home/krubro/Desktop/Emertxe/MC-Assignments/AS-09/config.h
+[p x FOSC  =  HS         ]
+"6
+[p x WDTE  =  OFF        ]
+"7
+[p x PWRTE  =  ON        ]
+"8
+[p x BOREN  =  ON        ]
+"9
+[p x LVP  =  OFF         ]
+"10
+[p x CPD  =  OFF         ]
+"11
+[p x WRT  =  OFF         ]
+"12
+[p x CP  =  OFF          ]
+"52 /home/krubro/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8/pic/include/proc/pic16f877a.h
+[; <" INDF equ 00h ;# ">
+"59
+[; <" TMR0 equ 01h ;# ">
+"66
+[; <" PCL equ 02h ;# ">
+"73
+[; <" STATUS equ 03h ;# ">
+"159
+[; <" FSR equ 04h ;# ">
+"166
+[; <" PORTA equ 05h ;# ">
+"216
+[; <" PORTB equ 06h ;# ">
+"278
+[; <" PORTC equ 07h ;# ">
+"340
+[; <" PORTD equ 08h ;# ">
+"402
+[; <" PORTE equ 09h ;# ">
+"434
+[; <" PCLATH equ 0Ah ;# ">
+"454
+[; <" INTCON equ 0Bh ;# ">
+"532
+[; <" PIR1 equ 0Ch ;# ">
+"594
+[; <" PIR2 equ 0Dh ;# ">
+"634
+[; <" TMR1 equ 0Eh ;# ">
+"641
+[; <" TMR1L equ 0Eh ;# ">
+"648
+[; <" TMR1H equ 0Fh ;# ">
+"655
+[; <" T1CON equ 010h ;# ">
+"730
+[; <" TMR2 equ 011h ;# ">
+"737
+[; <" T2CON equ 012h ;# ">
+"808
+[; <" SSPBUF equ 013h ;# ">
+"815
+[; <" SSPCON equ 014h ;# ">
+"885
+[; <" CCPR1 equ 015h ;# ">
+"892
+[; <" CCPR1L equ 015h ;# ">
+"899
+[; <" CCPR1H equ 016h ;# ">
+"906
+[; <" CCP1CON equ 017h ;# ">
+"964
+[; <" RCSTA equ 018h ;# ">
+"1059
+[; <" TXREG equ 019h ;# ">
+"1066
+[; <" RCREG equ 01Ah ;# ">
+"1073
+[; <" CCPR2 equ 01Bh ;# ">
+"1080
+[; <" CCPR2L equ 01Bh ;# ">
+"1087
+[; <" CCPR2H equ 01Ch ;# ">
+"1094
+[; <" CCP2CON equ 01Dh ;# ">
+"1152
+[; <" ADRESH equ 01Eh ;# ">
+"1159
+[; <" ADCON0 equ 01Fh ;# ">
+"1255
+[; <" OPTION_REG equ 081h ;# ">
+"1325
+[; <" TRISA equ 085h ;# ">
+"1375
+[; <" TRISB equ 086h ;# ">
+"1437
+[; <" TRISC equ 087h ;# ">
+"1499
+[; <" TRISD equ 088h ;# ">
+"1561
+[; <" TRISE equ 089h ;# ">
+"1618
+[; <" PIE1 equ 08Ch ;# ">
+"1680
+[; <" PIE2 equ 08Dh ;# ">
+"1720
+[; <" PCON equ 08Eh ;# ">
+"1754
+[; <" SSPCON2 equ 091h ;# ">
+"1816
+[; <" PR2 equ 092h ;# ">
+"1823
+[; <" SSPADD equ 093h ;# ">
+"1830
+[; <" SSPSTAT equ 094h ;# ">
+"1999
+[; <" TXSTA equ 098h ;# ">
+"2080
+[; <" SPBRG equ 099h ;# ">
+"2087
+[; <" CMCON equ 09Ch ;# ">
+"2157
+[; <" CVRCON equ 09Dh ;# ">
+"2222
+[; <" ADRESL equ 09Eh ;# ">
+"2229
+[; <" ADCON1 equ 09Fh ;# ">
+"2288
+[; <" EEDATA equ 010Ch ;# ">
+"2295
+[; <" EEADR equ 010Dh ;# ">
+"2302
+[; <" EEDATH equ 010Eh ;# ">
+"2309
+[; <" EEADRH equ 010Fh ;# ">
+"2316
+[; <" EECON1 equ 018Ch ;# ">
+"2361
+[; <" EECON2 equ 018Dh ;# ">
+[v $root$_main `(v ~T0 @X0 0 e ]
+"9 /home/krubro/Desktop/Emertxe/MC-Assignments/AS-09/main.c
+[v _main `(v ~T0 @X0 1 ef ]
+{
+[e :U _main ]
+[f ]
+"11
+[e = _ADCON1 -> -> 6 `i `uc ]
+"13
+[e ( _LCD_Init ..  ]
+[v F1018 `uc ~T0 @X0 -> 19 `i s ]
+[i F1018
+:U ..
+"16
+-> 95 `c
+-> 95 `c
+-> 95 `c
+-> 71 `c
+-> 111 `c
+-> 111 `c
+-> 100 `c
+-> 32 `c
+-> 77 `c
+-> 111 `c
+-> 114 `c
+-> 110 `c
+-> 105 `c
+-> 110 `c
+-> 103 `c
+-> 95 `c
+-> 95 `c
+-> 95 `c
+-> 0 `c
+..
+]
+[v _str `uc ~T0 @X0 -> 19 `i a ]
+[e = _str F1018 ]
+"17
+[e ( _LCD_SetCursor (2 , -> -> 0 `i `uc -> -> 0 `i `uc ]
+"18
+[e ( _LCD_String (1 :s 1C ]
+"20
+[v _temp `uc ~T0 @X0 1 a ]
+"21
+[v F1021 `uc ~T0 @X0 1 s delay ]
+[i F1021
+-> -> 0 `i `uc
+]
+"22
+[e :U 101 ]
+{
+"23
+[e ( _LCD_SetCursor (2 , -> -> 1 `i `uc -> -> 0 `i `uc ]
+"24
+[e ( _LCD_String (1 -> &U _str `*Cuc ]
+"25
+[e $ ! == -> ++ F1021 -> -> 1 `i `uc `i -> 25 `i 103  ]
+"26
+{
+"27
+[e = F1021 -> -> 0 `i `uc ]
+"28
+[e = _temp *U + &U _str * -> -> -> 17 `i `ui `ux -> -> # *U &U _str `ui `ux ]
+"29
+{
+[v _i `i ~T0 @X0 1 a ]
+[e = _i -> 17 `i ]
+[e $ >= _i -> 0 `i 104  ]
+[e $U 105  ]
+[e :U 104 ]
+"30
+{
+"31
+[e = *U + &U _str * -> -> _i `ui `ux -> -> # *U &U _str `ui `ux *U + &U _str * -> -> - _i -> 1 `i `ui `ux -> -> # *U &U _str `ui `ux ]
+"32
+}
+[e -- _i -> 1 `i ]
+[e $ >= _i -> 0 `i 104  ]
+[e :U 105 ]
+}
+"33
+[e = *U + &U _str * -> -> -> 0 `i `ui `ux -> -> # *U &U _str `ui `ux _temp ]
+"34
+[e = *U + &U _str * -> -> -> 18 `i `ui `ux -> -> # *U &U _str `ui `ux -> -> 0 `ui `uc ]
+"35
+}
+[e :U 103 ]
+"36
+}
+[e :U 100 ]
+[e $U 101  ]
+[e :U 102 ]
+"37
+[e :UE 99 ]
+}
+[a 1C 82 105 103 104 116 32 83 99 114 111 108 108 105 110 103 0 ]

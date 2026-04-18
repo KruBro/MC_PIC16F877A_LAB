@@ -1,0 +1,20 @@
+# ninja log v7
+3	159	1774354186947265235	CMakeFiles/AS_02_default_default_XC8_compile.dir/home/krubro/Desktop/Emertxe/MC-Assignments/AS-02/pattern3.c.p1	a3331575b3f528fc
+2	159	1774354186945102884	CMakeFiles/AS_02_default_default_XC8_compile.dir/home/krubro/Desktop/Emertxe/MC-Assignments/AS-02/initconfig.c.p1	2769ec36860786ab
+3	159	1774354186946930487	CMakeFiles/AS_02_default_default_XC8_compile.dir/home/krubro/Desktop/Emertxe/MC-Assignments/AS-02/pattern2.c.p1	c3dc75dca39d9059
+2	160	1774354186946591757	CMakeFiles/AS_02_default_default_XC8_compile.dir/home/krubro/Desktop/Emertxe/MC-Assignments/AS-02/pattern1.c.p1	4560e172a36a8963
+2	160	1774354186946216920	CMakeFiles/AS_02_default_default_XC8_compile.dir/home/krubro/Desktop/Emertxe/MC-Assignments/AS-02/main.c.p1	f7c35319d02c687b
+1	68	1774354675958034250	CMakeFiles/AS_02_default_default_XC8_compile.dir/home/krubro/Desktop/Emertxe/MC-Assignments/AS-02/initconfig.c.p1	2769ec36860786ab
+2	69	1774354675960001326	CMakeFiles/AS_02_default_default_XC8_compile.dir/home/krubro/Desktop/Emertxe/MC-Assignments/AS-02/pattern3.c.p1	a3331575b3f528fc
+2	69	1774354675960228100	CMakeFiles/AS_02_default_default_XC8_compile.dir/home/krubro/Desktop/Emertxe/MC-Assignments/AS-02/pattern4.c.p1	2ccc79c1dbceacbb
+2	70	1774354675960457388	CMakeFiles/AS_02_default_default_XC8_compile.dir/home/krubro/Desktop/Emertxe/MC-Assignments/AS-02/read_digital_keypad.c.p1	a7521dd8f9aff2bf
+1	75	1774354675959496444	CMakeFiles/AS_02_default_default_XC8_compile.dir/home/krubro/Desktop/Emertxe/MC-Assignments/AS-02/pattern1.c.p1	4560e172a36a8963
+2	75	1774354675959761701	CMakeFiles/AS_02_default_default_XC8_compile.dir/home/krubro/Desktop/Emertxe/MC-Assignments/AS-02/pattern2.c.p1	c3dc75dca39d9059
+1	86	1774354675959268901	CMakeFiles/AS_02_default_default_XC8_compile.dir/home/krubro/Desktop/Emertxe/MC-Assignments/AS-02/main.c.p1	f7c35319d02c687b
+86	615	1774354676043033021	/home/krubro/Desktop/Emertxe/MC-Assignments/AS-02/out/AS-02/production/default-production.elf	b10169c11f65a093
+1	92	1774354788983400479	CMakeFiles/AS_02_default_default_XC8_compile.dir/home/krubro/Desktop/Emertxe/MC-Assignments/AS-02/main.c.p1	f7c35319d02c687b
+92	637	1774354789074399164	/home/krubro/Desktop/Emertxe/MC-Assignments/AS-02/out/AS-02/production/default-production.elf	b10169c11f65a093
+1	80	1774354846930562859	CMakeFiles/AS_02_default_default_XC8_compile.dir/home/krubro/Desktop/Emertxe/MC-Assignments/AS-02/main.c.p1	f7c35319d02c687b
+80	636	1774354847009561717	/home/krubro/Desktop/Emertxe/MC-Assignments/AS-02/out/AS-02/production/default-production.elf	b10169c11f65a093
+1	79	1774354876432136416	CMakeFiles/AS_02_default_default_XC8_compile.dir/home/krubro/Desktop/Emertxe/MC-Assignments/AS-02/main.c.p1	f7c35319d02c687b
+79	602	1774354876510135289	/home/krubro/Desktop/Emertxe/MC-Assignments/AS-02/out/AS-02/production/default-production.elf	b10169c11f65a093

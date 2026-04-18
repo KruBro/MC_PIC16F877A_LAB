@@ -1,0 +1,96 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"3 /home/krubro/Desktop/Emertxe/MC-Assignments/AS-06/ext_interrupt_init.c
+[v _init_ext_interrtup init_ext_interrtup `(v  1 e 1 0 ]
+"5 /home/krubro/Desktop/Emertxe/MC-Assignments/AS-06/isr.c
+[v _isr isr `II(v  1 e 1 0 ]
+"5 /home/krubro/Desktop/Emertxe/MC-Assignments/AS-06/main.c
+[v _initConfig initConfig `(v  1 e 1 0 ]
+"13
+[v _main main `(i  1 e 2 0 ]
+"3 /home/krubro/Desktop/Emertxe/MC-Assignments/AS-06/ssd.c
+[v _ssdInit ssdInit `(v  1 e 1 0 ]
+"12
+[v _display display `(v  1 e 1 0 ]
+"10 /opt/microchip/xc8/v3.10/pic/sources/c99/common/sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 /opt/microchip/xc8/v3.10/pic/sources/c99/common/Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 /opt/microchip/xc8/v3.10/pic/sources/c99/pic/__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"164 /home/krubro/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8/pic/include/proc/pic16f877a.h
+[v _PORTA PORTA `VEuc  1 e 1 @5 ]
+"214
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+"338
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+"1323
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+"1373
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1497
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"2571
+[v _GIE GIE `VEb  1 e 0 @95 ]
+"2601
+[v _INTE INTE `VEb  1 e 0 @92 ]
+"2604
+[v _INTEDG INTEDG `VEb  1 e 0 @1038 ]
+"2607
+[v _INTF INTF `VEb  1 e 0 @89 ]
+"2631
+[v _PEIE PEIE `VEb  1 e 0 @94 ]
+"2697
+[v _RB7 RB7 `VEb  1 e 0 @55 ]
+"2937
+[v _TRISB0 TRISB0 `VEb  1 e 0 @1072 ]
+"3 /home/krubro/Desktop/Emertxe/MC-Assignments/AS-06/main.c
+[v _count count `VEui  1 e 2 0 ]
+"13
+[v _main main `(i  1 e 2 0 ]
+{
+"19
+[v main@digits digits `[10]uc  1 a 10 0 ]
+"17
+[v main@ssd ssd `[4]uc  1 a 4 10 ]
+"18
+[v main@delay delay `ul  1 a 4 14 ]
+[v main@F1016 F1016 `[10]uc  1 s 10 F1016 ]
+"48
+} 0
+"5
+[v _initConfig initConfig `(v  1 e 1 0 ]
+{
+"11
+} 0
+"3 /home/krubro/Desktop/Emertxe/MC-Assignments/AS-06/ssd.c
+[v _ssdInit ssdInit `(v  1 e 1 0 ]
+{
+"10
+} 0
+"3 /home/krubro/Desktop/Emertxe/MC-Assignments/AS-06/ext_interrupt_init.c
+[v _init_ext_interrtup init_ext_interrtup `(v  1 e 1 0 ]
+{
+"12
+} 0
+"12 /home/krubro/Desktop/Emertxe/MC-Assignments/AS-06/ssd.c
+[v _display display `(v  1 e 1 0 ]
+{
+"18
+[v display@j j `ui  1 a 2 4 ]
+"14
+[v display@i i `ui  1 a 2 6 ]
+"12
+[v display@ssd ssd `*.4uc  1 p 1 2 ]
+"20
+} 0
+"5 /home/krubro/Desktop/Emertxe/MC-Assignments/AS-06/isr.c
+[v _isr isr `II(v  1 e 1 0 ]
+{
+"12
+} 0

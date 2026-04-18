@@ -1,0 +1,6 @@
+# ninja log v7
+1	125	1774414284074737666	CMakeFiles/AS_03_default_default_XC8_compile.dir/home/krubro/Desktop/Emertxe/MC-Assignments/AS-03/main.c.p1	9e6616be0b628fc1
+1	129	1774414284076515893	CMakeFiles/AS_03_default_default_XC8_compile.dir/home/krubro/Desktop/Emertxe/MC-Assignments/AS-03/ssd.c.p1	e4f1f844ebf0c24e
+129	683	1774414284202735946	/home/krubro/Desktop/Emertxe/MC-Assignments/AS-03/out/AS-03/production/default-production.elf	4d617f5a86950c84
+1	80	1774414405741102933	CMakeFiles/AS_03_default_default_XC8_compile.dir/home/krubro/Desktop/Emertxe/MC-Assignments/AS-03/main.c.p1	9e6616be0b628fc1
+80	638	1774414405820101872	/home/krubro/Desktop/Emertxe/MC-Assignments/AS-03/out/AS-03/production/default-production.elf	4d617f5a86950c84

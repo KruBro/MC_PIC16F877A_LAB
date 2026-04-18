@@ -1,0 +1,89 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"3 /home/krubro/Desktop/Emertxe/MC-Assignments/AS-02/initconfig.c
+[v _initConfig initConfig `(v  1 e 1 0 ]
+"11 /home/krubro/Desktop/Emertxe/MC-Assignments/AS-02/main.c
+[v _main main `(i  1 e 2 0 ]
+"3 /home/krubro/Desktop/Emertxe/MC-Assignments/AS-02/pattern1.c
+[v _pattern1 pattern1 `(v  1 e 1 0 ]
+"3 /home/krubro/Desktop/Emertxe/MC-Assignments/AS-02/pattern2.c
+[v _pattern2 pattern2 `(v  1 e 1 0 ]
+"3 /home/krubro/Desktop/Emertxe/MC-Assignments/AS-02/pattern3.c
+[v _pattern3 pattern3 `(v  1 e 1 0 ]
+"3 /home/krubro/Desktop/Emertxe/MC-Assignments/AS-02/pattern4.c
+[v _pattern4 pattern4 `(v  1 e 1 0 ]
+"3 /home/krubro/Desktop/Emertxe/MC-Assignments/AS-02/read_digital_keypad.c
+[v _read_digital_keypad read_digital_keypad `(uc  1 e 1 0 ]
+"10 /opt/microchip/xc8/v3.10/pic/sources/c99/common/sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 /opt/microchip/xc8/v3.10/pic/sources/c99/common/Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 /opt/microchip/xc8/v3.10/pic/sources/c99/pic/__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"214 /home/krubro/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8/pic/include/proc/pic16f877a.h
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+"338
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+"1373
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1497
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"11 /home/krubro/Desktop/Emertxe/MC-Assignments/AS-02/main.c
+[v _main main `(i  1 e 2 0 ]
+{
+"15
+[v main@delay delay `ui  1 a 2 3 ]
+"13
+[v main@key key `uc  1 a 1 6 ]
+"14
+[v main@current_pattern current_pattern `uc  1 a 1 5 ]
+"58
+} 0
+"3 /home/krubro/Desktop/Emertxe/MC-Assignments/AS-02/read_digital_keypad.c
+[v _read_digital_keypad read_digital_keypad `(uc  1 e 1 0 ]
+{
+[v read_digital_keypad@trigger_method trigger_method `uc  1 p 1 wreg ]
+[v read_digital_keypad@trigger_method trigger_method `uc  1 p 1 wreg ]
+"5
+[v read_digital_keypad@isOn isOn `uc  1 s 1 isOn ]
+[v read_digital_keypad@trigger_method trigger_method `uc  1 p 1 2 ]
+"28
+} 1
+"3 /home/krubro/Desktop/Emertxe/MC-Assignments/AS-02/pattern4.c
+[v _pattern4 pattern4 `(v  1 e 1 0 ]
+{
+"7
+} 0
+"3 /home/krubro/Desktop/Emertxe/MC-Assignments/AS-02/pattern3.c
+[v _pattern3 pattern3 `(v  1 e 1 0 ]
+{
+"7
+} 0
+"3 /home/krubro/Desktop/Emertxe/MC-Assignments/AS-02/pattern2.c
+[v _pattern2 pattern2 `(v  1 e 1 0 ]
+{
+"5
+[v pattern2@phase phase `uc  1 s 1 phase ]
+"6
+[v pattern2@step step `uc  1 s 1 step ]
+"18
+} 0
+"3 /home/krubro/Desktop/Emertxe/MC-Assignments/AS-02/pattern1.c
+[v _pattern1 pattern1 `(v  1 e 1 0 ]
+{
+"5
+[v pattern1@phase phase `uc  1 s 1 phase ]
+"6
+[v pattern1@step step `uc  1 s 1 step ]
+"26
+} 0
+"3 /home/krubro/Desktop/Emertxe/MC-Assignments/AS-02/initconfig.c
+[v _initConfig initConfig `(v  1 e 1 0 ]
+{
+"9
+} 0

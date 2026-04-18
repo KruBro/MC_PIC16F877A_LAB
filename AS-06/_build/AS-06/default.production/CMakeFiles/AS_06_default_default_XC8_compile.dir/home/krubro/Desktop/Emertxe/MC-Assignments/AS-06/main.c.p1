@@ -1,0 +1,244 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"1373 /home/krubro/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8/pic/include/proc/pic16f877a.h
+[v _TRISB `Vuc ~T0 @X0 0 e@134 ]
+"214
+[v _PORTB `Vuc ~T0 @X0 0 e@6 ]
+"20 /home/krubro/Desktop/Emertxe/MC-Assignments/AS-06/main.h
+[v _ssdInit `(v ~T0 @X0 0 e? ]
+"23
+[v _init_ext_interrtup `(v ~T0 @X0 0 e? ]
+[p mainexit ]
+"21
+[v _display `(v ~T0 @X0 0 ef1`*uc ]
+"2697 /home/krubro/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8/pic/include/proc/pic16f877a.h
+[v _RB7 `Vb ~T0 @X0 0 e@55 ]
+"164
+[v _PORTA `Vuc ~T0 @X0 0 e@5 ]
+"338
+[v _PORTD `Vuc ~T0 @X0 0 e@8 ]
+"52 /home/krubro/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8/pic/include/proc/pic16f877a.h
+[; <" INDF equ 00h ;# ">
+"59
+[; <" TMR0 equ 01h ;# ">
+"66
+[; <" PCL equ 02h ;# ">
+"73
+[; <" STATUS equ 03h ;# ">
+"159
+[; <" FSR equ 04h ;# ">
+"166
+[; <" PORTA equ 05h ;# ">
+"216
+[; <" PORTB equ 06h ;# ">
+"278
+[; <" PORTC equ 07h ;# ">
+"340
+[; <" PORTD equ 08h ;# ">
+"402
+[; <" PORTE equ 09h ;# ">
+"434
+[; <" PCLATH equ 0Ah ;# ">
+"454
+[; <" INTCON equ 0Bh ;# ">
+"532
+[; <" PIR1 equ 0Ch ;# ">
+"594
+[; <" PIR2 equ 0Dh ;# ">
+"634
+[; <" TMR1 equ 0Eh ;# ">
+"641
+[; <" TMR1L equ 0Eh ;# ">
+"648
+[; <" TMR1H equ 0Fh ;# ">
+"655
+[; <" T1CON equ 010h ;# ">
+"730
+[; <" TMR2 equ 011h ;# ">
+"737
+[; <" T2CON equ 012h ;# ">
+"808
+[; <" SSPBUF equ 013h ;# ">
+"815
+[; <" SSPCON equ 014h ;# ">
+"885
+[; <" CCPR1 equ 015h ;# ">
+"892
+[; <" CCPR1L equ 015h ;# ">
+"899
+[; <" CCPR1H equ 016h ;# ">
+"906
+[; <" CCP1CON equ 017h ;# ">
+"964
+[; <" RCSTA equ 018h ;# ">
+"1059
+[; <" TXREG equ 019h ;# ">
+"1066
+[; <" RCREG equ 01Ah ;# ">
+"1073
+[; <" CCPR2 equ 01Bh ;# ">
+"1080
+[; <" CCPR2L equ 01Bh ;# ">
+"1087
+[; <" CCPR2H equ 01Ch ;# ">
+"1094
+[; <" CCP2CON equ 01Dh ;# ">
+"1152
+[; <" ADRESH equ 01Eh ;# ">
+"1159
+[; <" ADCON0 equ 01Fh ;# ">
+"1255
+[; <" OPTION_REG equ 081h ;# ">
+"1325
+[; <" TRISA equ 085h ;# ">
+"1375
+[; <" TRISB equ 086h ;# ">
+"1437
+[; <" TRISC equ 087h ;# ">
+"1499
+[; <" TRISD equ 088h ;# ">
+"1561
+[; <" TRISE equ 089h ;# ">
+"1618
+[; <" PIE1 equ 08Ch ;# ">
+"1680
+[; <" PIE2 equ 08Dh ;# ">
+"1720
+[; <" PCON equ 08Eh ;# ">
+"1754
+[; <" SSPCON2 equ 091h ;# ">
+"1816
+[; <" PR2 equ 092h ;# ">
+"1823
+[; <" SSPADD equ 093h ;# ">
+"1830
+[; <" SSPSTAT equ 094h ;# ">
+"1999
+[; <" TXSTA equ 098h ;# ">
+"2080
+[; <" SPBRG equ 099h ;# ">
+"2087
+[; <" CMCON equ 09Ch ;# ">
+"2157
+[; <" CVRCON equ 09Dh ;# ">
+"2222
+[; <" ADRESL equ 09Eh ;# ">
+"2229
+[; <" ADCON1 equ 09Fh ;# ">
+"2288
+[; <" EEDATA equ 010Ch ;# ">
+"2295
+[; <" EEADR equ 010Dh ;# ">
+"2302
+[; <" EEDATH equ 010Eh ;# ">
+"2309
+[; <" EEADRH equ 010Fh ;# ">
+"2316
+[; <" EECON1 equ 018Ch ;# ">
+"2361
+[; <" EECON2 equ 018Dh ;# ">
+"6 /home/krubro/Desktop/Emertxe/MC-Assignments/AS-06/main.h
+[p x WDTE  =  OFF ]
+"3 /home/krubro/Desktop/Emertxe/MC-Assignments/AS-06/main.c
+[v _count `Vui ~T0 @X0 1 e ]
+[i _count
+-> -> 0 `i `ui
+]
+"5
+[v _initConfig `(v ~T0 @X0 1 ef ]
+"6
+{
+[e :U _initConfig ]
+[f ]
+"7
+[e = _TRISB -> -> 0 `i `uc ]
+"8
+[e = _PORTB -> -> 0 `i `uc ]
+"9
+[e ( _ssdInit ..  ]
+"10
+[e ( _init_ext_interrtup ..  ]
+"11
+[e :UE 99 ]
+}
+[v $root$_main `(v ~T0 @X0 0 e ]
+"13
+[v _main `(i ~T0 @X0 1 ef ]
+{
+[e :U _main ]
+[f ]
+"15
+[e ( _initConfig ..  ]
+"17
+[v _ssd `uc ~T0 @X0 -> 4 `i a ]
+"18
+[v _delay `ul ~T0 @X0 1 a ]
+[e = _delay -> -> -> 0 `i `l `ul ]
+[v F1016 `uc ~T0 @X0 -> 10 `i s ]
+[i F1016
+:U ..
+"19
+-> -> 63 `i `uc
+-> -> 6 `i `uc
+-> -> 91 `i `uc
+-> -> 79 `i `uc
+-> -> 102 `i `uc
+-> -> 109 `i `uc
+-> -> 125 `i `uc
+-> -> 7 `i `uc
+-> -> 127 `i `uc
+-> -> 111 `i `uc
+..
+]
+[v _digits `uc ~T0 @X0 -> 10 `i a ]
+[e = _digits F1016 ]
+"21
+[e = *U + &U _ssd * -> -> -> 0 `i `ui `ux -> -> # *U &U _ssd `ui `ux *U + &U _digits * -> -> -> 1 `i `ui `ux -> -> # *U &U _digits `ui `ux ]
+"22
+[e = *U + &U _ssd * -> -> -> 1 `i `ui `ux -> -> # *U &U _ssd `ui `ux *U + &U _digits * -> -> -> 2 `i `ui `ux -> -> # *U &U _digits `ui `ux ]
+"23
+[e = *U + &U _ssd * -> -> -> 2 `i `ui `ux -> -> # *U &U _ssd `ui `ux *U + &U _digits * -> -> -> 3 `i `ui `ux -> -> # *U &U _digits `ui `ux ]
+"24
+[e = *U + &U _ssd * -> -> -> 3 `i `ui `ux -> -> # *U &U _ssd `ui `ux *U + &U _digits * -> -> -> 4 `i `ui `ux -> -> # *U &U _digits `ui `ux ]
+"26
+[e :U 102 ]
+"27
+{
+"28
+[e ( _display (1 &U _ssd ]
+"32
+[e $ ! == ++ _delay -> -> -> 1 `i `l `ul -> -> -> 255 `i `l `ul 104  ]
+"33
+{
+"34
+[e = _delay -> -> -> 0 `i `l `ul ]
+"35
+[e = _RB7 -> ~ -> _RB7 `ui `b ]
+"36
+[e ++ _count -> -> 1 `i `Vui ]
+"37
+}
+[e :U 104 ]
+"39
+[e $ ! == _count -> -> 5 `i `ui 105  ]
+"40
+{
+"42
+[e = _PORTA -> -> 0 `i `uc ]
+"43
+[e = _PORTD -> -> 0 `i `uc ]
+"44
+[; <" sleep ;# ">
+"45
+}
+[e :U 105 ]
+"46
+}
+[e :U 101 ]
+[e $U 102  ]
+[e :U 103 ]
+"47
+[e ) -> 0 `i ]
+[e $UE 100  ]
+"48
+[e :UE 100 ]
+}

@@ -1,0 +1,19 @@
+{
+  "configurations": [
+    {
+      "name": "PIC-XC8",
+      "compilerPath": "/opt/microchip/xc8/v3.10/bin/xc8-cc",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "/opt/microchip/xc8/v3.10/pic/include"
+      ],
+      "intelliSenseMode": "linux-gcc-x64",
+      "cStandard": "c99",
+      "defines": [
+        "__XC8",
+        "_XTAL_FREQ=4000000"
+      ]
+    }
+  ],
+  "version": 4
+}

@@ -1,0 +1,4 @@
+/home/krubro/Desktop/Emertxe/MC-Assignments/AS-05/_build/AS-05/default.production/CMakeFiles/AS_05_default_default_XC8_compile.dir
+/home/krubro/Desktop/Emertxe/MC-Assignments/AS-05/_build/AS-05/default.production/CMakeFiles/AS_05_default_image_HN33FkDy.dir
+/home/krubro/Desktop/Emertxe/MC-Assignments/AS-05/_build/AS-05/default.production/CMakeFiles/edit_cache.dir
+/home/krubro/Desktop/Emertxe/MC-Assignments/AS-05/_build/AS-05/default.production/CMakeFiles/rebuild_cache.dir

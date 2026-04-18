@@ -1,0 +1,4 @@
+/home/krubro/Desktop/Emertxe/MC-Assignments/AS-03/_build/AS-03/default/CMakeFiles/AS_03_default_default_XC8_compile.dir
+/home/krubro/Desktop/Emertxe/MC-Assignments/AS-03/_build/AS-03/default/CMakeFiles/AS_03_default_image_aNhRMs__.dir
+/home/krubro/Desktop/Emertxe/MC-Assignments/AS-03/_build/AS-03/default/CMakeFiles/edit_cache.dir
+/home/krubro/Desktop/Emertxe/MC-Assignments/AS-03/_build/AS-03/default/CMakeFiles/rebuild_cache.dir

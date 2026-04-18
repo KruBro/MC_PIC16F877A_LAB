@@ -1,0 +1,11 @@
+# ninja log v7
+1	122	1775721952352100522	CMakeFiles/AS_05_default_default_XC8_compile.dir/home/krubro/Desktop/Emertxe/MC-Assignments/AS-05/read_digital_keypad.c.p1	846d271f9d432923
+2	123	1775721952352364244	CMakeFiles/AS_05_default_default_XC8_compile.dir/home/krubro/Desktop/Emertxe/MC-Assignments/AS-05/ssd.c.p1	36216e8d014a2224
+1	74	1775721991839503169	CMakeFiles/AS_05_default_default_XC8_compile.dir/home/krubro/Desktop/Emertxe/MC-Assignments/AS-05/main.c.p1	bfa04131f11e427f
+74	776	1775721991913502417	/home/krubro/Desktop/Emertxe/MC-Assignments/AS-05/out/AS-05/production/default-production.elf	4531859c0aa256e0
+1	81	1775722283782535599	CMakeFiles/AS_05_default_default_XC8_compile.dir/home/krubro/Desktop/Emertxe/MC-Assignments/AS-05/main.c.p1	bfa04131f11e427f
+81	736	1775722283862534786	/home/krubro/Desktop/Emertxe/MC-Assignments/AS-05/out/AS-05/production/default-production.elf	4531859c0aa256e0
+1	85	1775722992402332554	CMakeFiles/AS_05_default_default_XC8_compile.dir/home/krubro/Desktop/Emertxe/MC-Assignments/AS-05/main.c.p1	bfa04131f11e427f
+85	754	1775722992486331700	/home/krubro/Desktop/Emertxe/MC-Assignments/AS-05/out/AS-05/production/default-production.elf	4531859c0aa256e0
+1	87	1775723128032756265	CMakeFiles/AS_05_default_default_XC8_compile.dir/home/krubro/Desktop/Emertxe/MC-Assignments/AS-05/main.c.p1	bfa04131f11e427f
+87	743	1775723128118755251	/home/krubro/Desktop/Emertxe/MC-Assignments/AS-05/out/AS-05/production/default-production.elf	4531859c0aa256e0

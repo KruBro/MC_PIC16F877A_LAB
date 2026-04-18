@@ -1,0 +1,113 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"3 /home/krubro/Desktop/Emertxe/MC-Assignments/AS-07/isr.c
+[v _isr isr `II(v  1 e 1 0 ]
+"12 /home/krubro/Desktop/Emertxe/MC-Assignments/AS-07/main.c
+[v _initConfig initConfig `(v  1 e 1 0 ]
+"28
+[v _main main `(i  1 e 2 0 ]
+"3 /home/krubro/Desktop/Emertxe/MC-Assignments/AS-07/timer0.c
+[v _initTimer0 initTimer0 `(v  1 e 1 0 ]
+"3 /home/krubro/Desktop/Emertxe/MC-Assignments/AS-07/timer1.c
+[v _initTimer1 initTimer1 `(v  1 e 1 0 ]
+"3 /home/krubro/Desktop/Emertxe/MC-Assignments/AS-07/timer2.c
+[v _initTimer2 initTimer2 `(v  1 e 1 0 ]
+"10 /opt/microchip/xc8/v3.10/pic/sources/c99/common/sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 /opt/microchip/xc8/v3.10/pic/sources/c99/common/Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 /opt/microchip/xc8/v3.10/pic/sources/c99/pic/__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"57 /home/krubro/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8/pic/include/proc/pic16f877a.h
+[v _TMR0 TMR0 `VEuc  1 e 1 @1 ]
+"338
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+"632
+[v _TMR1 TMR1 `VEus  1 e 2 @14 ]
+"1497
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"1814
+[v _PR2 PR2 `VEuc  1 e 1 @146 ]
+"2571
+[v _GIE GIE `VEb  1 e 0 @95 ]
+"2631
+[v _PEIE PEIE `VEb  1 e 0 @94 ]
+"2646
+[v _PSA PSA `VEb  1 e 0 @1035 ]
+"2751
+[v _RD0 RD0 `VEb  1 e 0 @64 ]
+"2754
+[v _RD1 RD1 `VEb  1 e 0 @65 ]
+"2757
+[v _RD2 RD2 `VEb  1 e 0 @66 ]
+"2847
+[v _T0CS T0CS `VEb  1 e 0 @1037 ]
+"2859
+[v _T1CKPS0 T1CKPS0 `VEb  1 e 0 @132 ]
+"2862
+[v _T1CKPS1 T1CKPS1 `VEb  1 e 0 @133 ]
+"2868
+[v _T1OSCEN T1OSCEN `VEb  1 e 0 @131 ]
+"2874
+[v _T2CKPS0 T2CKPS0 `VEb  1 e 0 @144 ]
+"2877
+[v _T2CKPS1 T2CKPS1 `VEb  1 e 0 @145 ]
+"2880
+[v _TMR0IE TMR0IE `VEb  1 e 0 @93 ]
+"2883
+[v _TMR0IF TMR0IF `VEb  1 e 0 @90 ]
+"2886
+[v _TMR1CS TMR1CS `VEb  1 e 0 @129 ]
+"2889
+[v _TMR1IE TMR1IE `VEb  1 e 0 @1120 ]
+"2892
+[v _TMR1IF TMR1IF `VEb  1 e 0 @96 ]
+"2895
+[v _TMR1ON TMR1ON `VEb  1 e 0 @128 ]
+"2898
+[v _TMR2IE TMR2IE `VEb  1 e 0 @1121 ]
+"2901
+[v _TMR2IF TMR2IF `VEb  1 e 0 @97 ]
+"2904
+[v _TMR2ON TMR2ON `VEb  1 e 0 @146 ]
+"28 /home/krubro/Desktop/Emertxe/MC-Assignments/AS-07/main.c
+[v _main main `(i  1 e 2 0 ]
+{
+"38
+} 0
+"12
+[v _initConfig initConfig `(v  1 e 1 0 ]
+{
+"26
+} 0
+"3 /home/krubro/Desktop/Emertxe/MC-Assignments/AS-07/timer2.c
+[v _initTimer2 initTimer2 `(v  1 e 1 0 ]
+{
+"20
+} 0
+"3 /home/krubro/Desktop/Emertxe/MC-Assignments/AS-07/timer1.c
+[v _initTimer1 initTimer1 `(v  1 e 1 0 ]
+{
+"26
+} 0
+"3 /home/krubro/Desktop/Emertxe/MC-Assignments/AS-07/timer0.c
+[v _initTimer0 initTimer0 `(v  1 e 1 0 ]
+{
+"19
+} 0
+"3 /home/krubro/Desktop/Emertxe/MC-Assignments/AS-07/isr.c
+[v _isr isr `II(v  1 e 1 0 ]
+{
+"5
+[v isr@count count `ui  1 s 2 count ]
+"6
+[v isr@count1 count1 `ui  1 s 2 count1 ]
+"7
+[v isr@count2 count2 `ui  1 s 2 count2 ]
+"39
+} 0

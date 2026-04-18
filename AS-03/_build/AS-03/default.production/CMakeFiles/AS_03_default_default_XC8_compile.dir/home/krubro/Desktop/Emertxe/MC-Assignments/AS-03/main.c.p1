@@ -1,0 +1,216 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"19 /home/krubro/Desktop/Emertxe/MC-Assignments/AS-03/ssd.h
+[v _init_ssd `(v ~T0 @X0 0 e? ]
+[p mainexit ]
+"20
+[v _display `(v ~T0 @X0 0 ef1`*uc ]
+"52 /home/krubro/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8/pic/include/proc/pic16f877a.h
+[; <" INDF equ 00h ;# ">
+"59
+[; <" TMR0 equ 01h ;# ">
+"66
+[; <" PCL equ 02h ;# ">
+"73
+[; <" STATUS equ 03h ;# ">
+"159
+[; <" FSR equ 04h ;# ">
+"166
+[; <" PORTA equ 05h ;# ">
+"216
+[; <" PORTB equ 06h ;# ">
+"278
+[; <" PORTC equ 07h ;# ">
+"340
+[; <" PORTD equ 08h ;# ">
+"402
+[; <" PORTE equ 09h ;# ">
+"434
+[; <" PCLATH equ 0Ah ;# ">
+"454
+[; <" INTCON equ 0Bh ;# ">
+"532
+[; <" PIR1 equ 0Ch ;# ">
+"594
+[; <" PIR2 equ 0Dh ;# ">
+"634
+[; <" TMR1 equ 0Eh ;# ">
+"641
+[; <" TMR1L equ 0Eh ;# ">
+"648
+[; <" TMR1H equ 0Fh ;# ">
+"655
+[; <" T1CON equ 010h ;# ">
+"730
+[; <" TMR2 equ 011h ;# ">
+"737
+[; <" T2CON equ 012h ;# ">
+"808
+[; <" SSPBUF equ 013h ;# ">
+"815
+[; <" SSPCON equ 014h ;# ">
+"885
+[; <" CCPR1 equ 015h ;# ">
+"892
+[; <" CCPR1L equ 015h ;# ">
+"899
+[; <" CCPR1H equ 016h ;# ">
+"906
+[; <" CCP1CON equ 017h ;# ">
+"964
+[; <" RCSTA equ 018h ;# ">
+"1059
+[; <" TXREG equ 019h ;# ">
+"1066
+[; <" RCREG equ 01Ah ;# ">
+"1073
+[; <" CCPR2 equ 01Bh ;# ">
+"1080
+[; <" CCPR2L equ 01Bh ;# ">
+"1087
+[; <" CCPR2H equ 01Ch ;# ">
+"1094
+[; <" CCP2CON equ 01Dh ;# ">
+"1152
+[; <" ADRESH equ 01Eh ;# ">
+"1159
+[; <" ADCON0 equ 01Fh ;# ">
+"1255
+[; <" OPTION_REG equ 081h ;# ">
+"1325
+[; <" TRISA equ 085h ;# ">
+"1375
+[; <" TRISB equ 086h ;# ">
+"1437
+[; <" TRISC equ 087h ;# ">
+"1499
+[; <" TRISD equ 088h ;# ">
+"1561
+[; <" TRISE equ 089h ;# ">
+"1618
+[; <" PIE1 equ 08Ch ;# ">
+"1680
+[; <" PIE2 equ 08Dh ;# ">
+"1720
+[; <" PCON equ 08Eh ;# ">
+"1754
+[; <" SSPCON2 equ 091h ;# ">
+"1816
+[; <" PR2 equ 092h ;# ">
+"1823
+[; <" SSPADD equ 093h ;# ">
+"1830
+[; <" SSPSTAT equ 094h ;# ">
+"1999
+[; <" TXSTA equ 098h ;# ">
+"2080
+[; <" SPBRG equ 099h ;# ">
+"2087
+[; <" CMCON equ 09Ch ;# ">
+"2157
+[; <" CVRCON equ 09Dh ;# ">
+"2222
+[; <" ADRESL equ 09Eh ;# ">
+"2229
+[; <" ADCON1 equ 09Fh ;# ">
+"2288
+[; <" EEDATA equ 010Ch ;# ">
+"2295
+[; <" EEADR equ 010Dh ;# ">
+"2302
+[; <" EEDATH equ 010Eh ;# ">
+"2309
+[; <" EEADRH equ 010Fh ;# ">
+"2316
+[; <" EECON1 equ 018Ch ;# ">
+"2361
+[; <" EECON2 equ 018Dh ;# ">
+"6 /home/krubro/Desktop/Emertxe/MC-Assignments/AS-03/ssd.h
+[p x WDTE  =  OFF ]
+"10 /home/krubro/Desktop/Emertxe/MC-Assignments/AS-03/main.c
+[v _initConfig `(v ~T0 @X0 1 ef ]
+"11
+{
+[e :U _initConfig ]
+[f ]
+"12
+[e ( _init_ssd ..  ]
+"13
+[e :UE 99 ]
+}
+[v $root$_main `(v ~T0 @X0 0 e ]
+"15
+[v _main `(i ~T0 @X0 1 ef ]
+{
+[e :U _main ]
+[f ]
+"17
+[e ( _initConfig ..  ]
+"18
+[v _ssd `uc ~T0 @X0 -> 4 `i a ]
+[v F1012 `uc ~T0 @X0 -> 12 `i s ]
+[i F1012
+:U ..
+"19
+-> -> 63 `i `uc
+-> -> 6 `i `uc
+-> -> 91 `i `uc
+-> -> 79 `i `uc
+-> -> 102 `i `uc
+-> -> 109 `i `uc
+-> -> 125 `i `uc
+-> -> 7 `i `uc
+-> -> 127 `i `uc
+-> -> 111 `i `uc
+-> -> 8 `i `uc
+-> -> 8 `i `uc
+..
+]
+[v _digit `uc ~T0 @X0 -> 12 `i a ]
+[e = _digit F1012 ]
+"21
+[v _count `uc ~T0 @X0 1 a ]
+[e = _count -> -> 0 `i `uc ]
+"22
+[v _delay `ui ~T0 @X0 1 a ]
+[e = _delay -> -> 0 `i `ui ]
+"23
+[e :U 102 ]
+"24
+{
+"25
+[e = *U + &U _ssd * -> -> -> 0 `i `ui `ux -> -> # *U &U _ssd `ui `ux *U + &U _digit * -> -> % -> _count `i -> 12 `i `ui `ux -> -> # *U &U _digit `ui `ux ]
+"26
+[e = *U + &U _ssd * -> -> -> 1 `i `ui `ux -> -> # *U &U _ssd `ui `ux *U + &U _digit * -> -> % + -> _count `i -> 1 `i -> 12 `i `ui `ux -> -> # *U &U _digit `ui `ux ]
+"27
+[e = *U + &U _ssd * -> -> -> 2 `i `ui `ux -> -> # *U &U _ssd `ui `ux *U + &U _digit * -> -> % + -> _count `i -> 2 `i -> 12 `i `ui `ux -> -> # *U &U _digit `ui `ux ]
+"28
+[e = *U + &U _ssd * -> -> -> 3 `i `ui `ux -> -> # *U &U _ssd `ui `ux *U + &U _digit * -> -> % + -> _count `i -> 3 `i -> 12 `i `ui `ux -> -> # *U &U _digit `ui `ux ]
+"30
+[e ( _display (1 &U _ssd ]
+"32
+[e $ ! == ++ _delay -> -> 1 `i `ui -> -> 50 `i `ui 104  ]
+"33
+{
+"34
+[e = _delay -> -> 0 `i `ui ]
+"35
+[e ++ _count -> -> 1 `i `uc ]
+"36
+[e $ ! == -> _count `i -> 12 `i 105  ]
+"37
+[e = _count -> -> 0 `i `uc ]
+[e :U 105 ]
+"38
+}
+[e :U 104 ]
+"39
+}
+[e :U 101 ]
+[e $U 102  ]
+[e :U 103 ]
+"40
+[e ) -> 0 `i ]
+[e $UE 100  ]
+"41
+[e :UE 100 ]
+}

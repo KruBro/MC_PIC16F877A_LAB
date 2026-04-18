@@ -1,0 +1,5 @@
+{
+    "cmake.sourceDirectory": "/home/krubro/Desktop/Emertxe/MC-Assignments/AS-04/cmake/AS-04/default",
+    "mplab.clangd.compileCommandsDir": "${workspaceFolder}/_build/AS-04/default",
+    "mplab.clangd.path": "/opt/microchip/xc8/v3.10/bin/xc8-clangd"
+}

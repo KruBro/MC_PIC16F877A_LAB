@@ -1,0 +1,44 @@
+[
+{
+  "directory": "/home/krubro/Desktop/Emertxe/MC-Assignments/AS-02/_build/AS-02/default",
+  "command": "/opt/microchip/xc8/v3.10/bin/xc8-cc -DXPRJ_default=default -D__16F877A__ -D__DEBUG=1 -c -mcpu=16F877A -mdfp=/home/krubro/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8 -fno-short-double -fno-short-float -O0 -maddrqual=ignore -mwarn=-3 -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mno-default-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto -o CMakeFiles/AS_02_default_default_XC8_compile.dir/home/krubro/Desktop/Emertxe/MC-Assignments/AS-02/initconfig.c.p1 -c /home/krubro/Desktop/Emertxe/MC-Assignments/AS-02/initconfig.c",
+  "file": "/home/krubro/Desktop/Emertxe/MC-Assignments/AS-02/initconfig.c",
+  "output": "/home/krubro/Desktop/Emertxe/MC-Assignments/AS-02/_build/AS-02/default/CMakeFiles/AS_02_default_default_XC8_compile.dir/home/krubro/Desktop/Emertxe/MC-Assignments/AS-02/initconfig.c.p1"
+},
+{
+  "directory": "/home/krubro/Desktop/Emertxe/MC-Assignments/AS-02/_build/AS-02/default",
+  "command": "/opt/microchip/xc8/v3.10/bin/xc8-cc -DXPRJ_default=default -D__16F877A__ -D__DEBUG=1 -c -mcpu=16F877A -mdfp=/home/krubro/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8 -fno-short-double -fno-short-float -O0 -maddrqual=ignore -mwarn=-3 -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mno-default-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto -o CMakeFiles/AS_02_default_default_XC8_compile.dir/home/krubro/Desktop/Emertxe/MC-Assignments/AS-02/main.c.p1 -c /home/krubro/Desktop/Emertxe/MC-Assignments/AS-02/main.c",
+  "file": "/home/krubro/Desktop/Emertxe/MC-Assignments/AS-02/main.c",
+  "output": "/home/krubro/Desktop/Emertxe/MC-Assignments/AS-02/_build/AS-02/default/CMakeFiles/AS_02_default_default_XC8_compile.dir/home/krubro/Desktop/Emertxe/MC-Assignments/AS-02/main.c.p1"
+},
+{
+  "directory": "/home/krubro/Desktop/Emertxe/MC-Assignments/AS-02/_build/AS-02/default",
+  "command": "/opt/microchip/xc8/v3.10/bin/xc8-cc -DXPRJ_default=default -D__16F877A__ -D__DEBUG=1 -c -mcpu=16F877A -mdfp=/home/krubro/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8 -fno-short-double -fno-short-float -O0 -maddrqual=ignore -mwarn=-3 -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mno-default-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto -o CMakeFiles/AS_02_default_default_XC8_compile.dir/home/krubro/Desktop/Emertxe/MC-Assignments/AS-02/pattern1.c.p1 -c /home/krubro/Desktop/Emertxe/MC-Assignments/AS-02/pattern1.c",
+  "file": "/home/krubro/Desktop/Emertxe/MC-Assignments/AS-02/pattern1.c",
+  "output": "/home/krubro/Desktop/Emertxe/MC-Assignments/AS-02/_build/AS-02/default/CMakeFiles/AS_02_default_default_XC8_compile.dir/home/krubro/Desktop/Emertxe/MC-Assignments/AS-02/pattern1.c.p1"
+},
+{
+  "directory": "/home/krubro/Desktop/Emertxe/MC-Assignments/AS-02/_build/AS-02/default",
+  "command": "/opt/microchip/xc8/v3.10/bin/xc8-cc -DXPRJ_default=default -D__16F877A__ -D__DEBUG=1 -c -mcpu=16F877A -mdfp=/home/krubro/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8 -fno-short-double -fno-short-float -O0 -maddrqual=ignore -mwarn=-3 -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mno-default-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto -o CMakeFiles/AS_02_default_default_XC8_compile.dir/home/krubro/Desktop/Emertxe/MC-Assignments/AS-02/pattern2.c.p1 -c /home/krubro/Desktop/Emertxe/MC-Assignments/AS-02/pattern2.c",
+  "file": "/home/krubro/Desktop/Emertxe/MC-Assignments/AS-02/pattern2.c",
+  "output": "/home/krubro/Desktop/Emertxe/MC-Assignments/AS-02/_build/AS-02/default/CMakeFiles/AS_02_default_default_XC8_compile.dir/home/krubro/Desktop/Emertxe/MC-Assignments/AS-02/pattern2.c.p1"
+},
+{
+  "directory": "/home/krubro/Desktop/Emertxe/MC-Assignments/AS-02/_build/AS-02/default",
+  "command": "/opt/microchip/xc8/v3.10/bin/xc8-cc -DXPRJ_default=default -D__16F877A__ -D__DEBUG=1 -c -mcpu=16F877A -mdfp=/home/krubro/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8 -fno-short-double -fno-short-float -O0 -maddrqual=ignore -mwarn=-3 -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mno-default-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto -o CMakeFiles/AS_02_default_default_XC8_compile.dir/home/krubro/Desktop/Emertxe/MC-Assignments/AS-02/pattern3.c.p1 -c /home/krubro/Desktop/Emertxe/MC-Assignments/AS-02/pattern3.c",
+  "file": "/home/krubro/Desktop/Emertxe/MC-Assignments/AS-02/pattern3.c",
+  "output": "/home/krubro/Desktop/Emertxe/MC-Assignments/AS-02/_build/AS-02/default/CMakeFiles/AS_02_default_default_XC8_compile.dir/home/krubro/Desktop/Emertxe/MC-Assignments/AS-02/pattern3.c.p1"
+},
+{
+  "directory": "/home/krubro/Desktop/Emertxe/MC-Assignments/AS-02/_build/AS-02/default",
+  "command": "/opt/microchip/xc8/v3.10/bin/xc8-cc -DXPRJ_default=default -D__16F877A__ -D__DEBUG=1 -c -mcpu=16F877A -mdfp=/home/krubro/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8 -fno-short-double -fno-short-float -O0 -maddrqual=ignore -mwarn=-3 -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mno-default-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto -o CMakeFiles/AS_02_default_default_XC8_compile.dir/home/krubro/Desktop/Emertxe/MC-Assignments/AS-02/pattern4.c.p1 -c /home/krubro/Desktop/Emertxe/MC-Assignments/AS-02/pattern4.c",
+  "file": "/home/krubro/Desktop/Emertxe/MC-Assignments/AS-02/pattern4.c",
+  "output": "/home/krubro/Desktop/Emertxe/MC-Assignments/AS-02/_build/AS-02/default/CMakeFiles/AS_02_default_default_XC8_compile.dir/home/krubro/Desktop/Emertxe/MC-Assignments/AS-02/pattern4.c.p1"
+},
+{
+  "directory": "/home/krubro/Desktop/Emertxe/MC-Assignments/AS-02/_build/AS-02/default",
+  "command": "/opt/microchip/xc8/v3.10/bin/xc8-cc -DXPRJ_default=default -D__16F877A__ -D__DEBUG=1 -c -mcpu=16F877A -mdfp=/home/krubro/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8 -fno-short-double -fno-short-float -O0 -maddrqual=ignore -mwarn=-3 -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mno-default-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto -o CMakeFiles/AS_02_default_default_XC8_compile.dir/home/krubro/Desktop/Emertxe/MC-Assignments/AS-02/read_digital_keypad.c.p1 -c /home/krubro/Desktop/Emertxe/MC-Assignments/AS-02/read_digital_keypad.c",
+  "file": "/home/krubro/Desktop/Emertxe/MC-Assignments/AS-02/read_digital_keypad.c",
+  "output": "/home/krubro/Desktop/Emertxe/MC-Assignments/AS-02/_build/AS-02/default/CMakeFiles/AS_02_default_default_XC8_compile.dir/home/krubro/Desktop/Emertxe/MC-Assignments/AS-02/read_digital_keypad.c.p1"
+}
+]

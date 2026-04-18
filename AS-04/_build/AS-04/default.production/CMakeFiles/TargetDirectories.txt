@@ -1,0 +1,4 @@
+/home/krubro/Desktop/Emertxe/MC-Assignments/AS-04/_build/AS-04/default.production/CMakeFiles/AS_04_default_default_XC8_compile.dir
+/home/krubro/Desktop/Emertxe/MC-Assignments/AS-04/_build/AS-04/default.production/CMakeFiles/AS_04_default_image_vdVa_jfC.dir
+/home/krubro/Desktop/Emertxe/MC-Assignments/AS-04/_build/AS-04/default.production/CMakeFiles/edit_cache.dir
+/home/krubro/Desktop/Emertxe/MC-Assignments/AS-04/_build/AS-04/default.production/CMakeFiles/rebuild_cache.dir
