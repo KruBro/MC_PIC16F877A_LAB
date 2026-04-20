@@ -1,0 +1,355 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"17 /home/krubro/Desktop/Emertxe/MC-Assignments/AS-10/digital_keypad.h
+[v _initKeypad `(v ~T0 @X0 0 ef ]
+"32 /home/krubro/Desktop/Emertxe/MC-Assignments/AS-10/clcd.h
+[v _init_clcd `(v ~T0 @X0 0 ef ]
+"34
+[v _clcd_print `(v ~T0 @X0 0 ef2`*Cuc`uc ]
+"33
+[v _clcd_putch `(v ~T0 @X0 0 ef2`Cuc`uc ]
+"4 /home/krubro/Desktop/Emertxe/MC-Assignments/AS-10/my_string.h
+[v _my_strcmp `(i ~T0 @X0 0 ef2`*Cuc`*Cuc ]
+"35 /home/krubro/Desktop/Emertxe/MC-Assignments/AS-10/clcd.h
+[v _clcd_clear `(v ~T0 @X0 0 ef ]
+"52 /home/krubro/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8/pic/include/proc/pic16f877a.h
+[; <" INDF equ 00h ;# ">
+"59
+[; <" TMR0 equ 01h ;# ">
+"66
+[; <" PCL equ 02h ;# ">
+"73
+[; <" STATUS equ 03h ;# ">
+"159
+[; <" FSR equ 04h ;# ">
+"166
+[; <" PORTA equ 05h ;# ">
+"216
+[; <" PORTB equ 06h ;# ">
+"278
+[; <" PORTC equ 07h ;# ">
+"340
+[; <" PORTD equ 08h ;# ">
+"402
+[; <" PORTE equ 09h ;# ">
+"434
+[; <" PCLATH equ 0Ah ;# ">
+"454
+[; <" INTCON equ 0Bh ;# ">
+"532
+[; <" PIR1 equ 0Ch ;# ">
+"594
+[; <" PIR2 equ 0Dh ;# ">
+"634
+[; <" TMR1 equ 0Eh ;# ">
+"641
+[; <" TMR1L equ 0Eh ;# ">
+"648
+[; <" TMR1H equ 0Fh ;# ">
+"655
+[; <" T1CON equ 010h ;# ">
+"730
+[; <" TMR2 equ 011h ;# ">
+"737
+[; <" T2CON equ 012h ;# ">
+"808
+[; <" SSPBUF equ 013h ;# ">
+"815
+[; <" SSPCON equ 014h ;# ">
+"885
+[; <" CCPR1 equ 015h ;# ">
+"892
+[; <" CCPR1L equ 015h ;# ">
+"899
+[; <" CCPR1H equ 016h ;# ">
+"906
+[; <" CCP1CON equ 017h ;# ">
+"964
+[; <" RCSTA equ 018h ;# ">
+"1059
+[; <" TXREG equ 019h ;# ">
+"1066
+[; <" RCREG equ 01Ah ;# ">
+"1073
+[; <" CCPR2 equ 01Bh ;# ">
+"1080
+[; <" CCPR2L equ 01Bh ;# ">
+"1087
+[; <" CCPR2H equ 01Ch ;# ">
+"1094
+[; <" CCP2CON equ 01Dh ;# ">
+"1152
+[; <" ADRESH equ 01Eh ;# ">
+"1159
+[; <" ADCON0 equ 01Fh ;# ">
+"1255
+[; <" OPTION_REG equ 081h ;# ">
+"1325
+[; <" TRISA equ 085h ;# ">
+"1375
+[; <" TRISB equ 086h ;# ">
+"1437
+[; <" TRISC equ 087h ;# ">
+"1499
+[; <" TRISD equ 088h ;# ">
+"1561
+[; <" TRISE equ 089h ;# ">
+"1618
+[; <" PIE1 equ 08Ch ;# ">
+"1680
+[; <" PIE2 equ 08Dh ;# ">
+"1720
+[; <" PCON equ 08Eh ;# ">
+"1754
+[; <" SSPCON2 equ 091h ;# ">
+"1816
+[; <" PR2 equ 092h ;# ">
+"1823
+[; <" SSPADD equ 093h ;# ">
+"1830
+[; <" SSPSTAT equ 094h ;# ">
+"1999
+[; <" TXSTA equ 098h ;# ">
+"2080
+[; <" SPBRG equ 099h ;# ">
+"2087
+[; <" CMCON equ 09Ch ;# ">
+"2157
+[; <" CVRCON equ 09Dh ;# ">
+"2222
+[; <" ADRESL equ 09Eh ;# ">
+"2229
+[; <" ADCON1 equ 09Fh ;# ">
+"2288
+[; <" EEDATA equ 010Ch ;# ">
+"2295
+[; <" EEADR equ 010Dh ;# ">
+"2302
+[; <" EEDATH equ 010Eh ;# ">
+"2309
+[; <" EEADRH equ 010Fh ;# ">
+"2316
+[; <" EECON1 equ 018Ch ;# ">
+"2361
+[; <" EECON2 equ 018Dh ;# ">
+"10 /home/krubro/Desktop/Emertxe/MC-Assignments/AS-10/config.c
+[v _i `uc ~T0 @X0 1 s ]
+[i _i
+-> -> 0 `i `uc
+]
+"11
+[v _attempts_left `uc ~T0 @X0 1 s ]
+[i _attempts_left
+-> -> 5 `i `uc
+]
+"12
+[v _my_pass `uc ~T0 @X0 -> 9 `i s ]
+"13
+[v _user_pass `Cuc ~T0 @X0 -> 9 `i s ]
+[i _user_pass
+:U ..
+-> 49 `c
+-> 49 `c
+-> 49 `c
+-> 49 `c
+-> 48 `c
+-> 48 `c
+-> 48 `c
+-> 48 `c
+-> 0 `c
+..
+]
+"15
+[v _blink_counter `ui ~T0 @X0 1 s ]
+[i _blink_counter
+-> -> 0 `i `ui
+]
+"16
+[v _cursor_visible `uc ~T0 @X0 1 s ]
+[i _cursor_visible
+-> -> 0 `i `uc
+]
+"21
+[v _init_config `(v ~T0 @X0 1 ef ]
+{
+[e :U _init_config ]
+[f ]
+"22
+[e ( _initKeypad ..  ]
+"23
+[e ( _init_clcd ..  ]
+"24
+[e :UE 99 ]
+}
+"26
+[v _show_login_screen `(v ~T0 @X0 1 ef ]
+{
+[e :U _show_login_screen ]
+[f ]
+"27
+[e ( _clcd_print (2 , :s 1C -> + -> 128 `i -> 0 `i `uc ]
+"28
+[e ( _clcd_putch (2 , -> -> 95 `ui `uc -> + -> 192 `i -> 0 `i `uc ]
+"29
+[e :UE 100 ]
+}
+"31
+[v _handle_blinker `(v ~T0 @X0 1 ef ]
+{
+[e :U _handle_blinker ]
+[f ]
+"32
+[e $ ! >= ++ _blink_counter -> -> 1 `i `ui -> -> 10000 `i `ui 102  ]
+{
+"33
+[e = _blink_counter -> -> 0 `i `ui ]
+"34
+[e = _cursor_visible -> -> ! != -> _cursor_visible `i -> 0 `i `i `uc ]
+"36
+[e $ ! < -> _i `i -> 8 `i 103  ]
+{
+"37
+[e ( _clcd_putch (2 , -> ? != -> _cursor_visible `i -> 0 `i : -> 95 `ui -> 32 `ui `uc -> + -> 192 `i -> _i `i `uc ]
+"38
+}
+[e :U 103 ]
+"39
+}
+[e :U 102 ]
+"40
+[e :UE 101 ]
+}
+"42
+[v _process_keypress `(v ~T0 @X0 1 ef1`uc ]
+{
+[e :U _process_keypress ]
+[v _key `uc ~T0 @X0 1 r1 ]
+[f ]
+"43
+[e $ ! || == -> _key `i -> 62 `i == -> _key `i -> 61 `i 105  ]
+{
+"44
+[e = *U + &U _my_pass * -> _i `ux -> -> # *U &U _my_pass `ui `ux -> ? == -> _key `i -> 62 `i : -> 48 `ui -> 49 `ui `uc ]
+"45
+[e ( _clcd_putch (2 , -> -> 42 `ui `uc -> + -> 192 `i -> _i `i `uc ]
+"46
+[e ++ _i -> -> 1 `i `uc ]
+"48
+[e = _blink_counter -> -> 0 `i `ui ]
+"49
+[e = _cursor_visible -> -> 1 `i `uc ]
+"51
+[e $ ! < -> _i `i -> 8 `i 106  ]
+{
+"52
+[e ( _clcd_putch (2 , -> -> 95 `ui `uc -> + -> 192 `i -> _i `i `uc ]
+"53
+}
+[e :U 106 ]
+"54
+}
+[e :U 105 ]
+"55
+[e :UE 104 ]
+}
+"57
+[v _verify_password `(v ~T0 @X0 1 ef ]
+{
+[e :U _verify_password ]
+[f ]
+"58
+[e $ ! == -> _i `i -> 8 `i 108  ]
+{
+"59
+[e = *U + &U _my_pass * -> -> -> 8 `i `ui `ux -> -> # *U &U _my_pass `ui `ux -> -> 0 `ui `uc ]
+"61
+[e $ ! == ( _my_strcmp (2 , &U _user_pass -> &U _my_pass `*Cuc -> 0 `i 109  ]
+{
+"62
+[e ( _clcd_print (2 , :s 2C -> + -> 128 `i -> 0 `i `uc ]
+"63
+[e ( _clcd_print (2 , :s 3C -> + -> 192 `i -> 0 `i `uc ]
+"64
+[e :U 111 ]
+[e :U 110 ]
+[e $U 111  ]
+[e :U 112 ]
+"65
+}
+[e $U 113  ]
+[e :U 109 ]
+{
+"66
+[e -- _attempts_left -> -> 1 `i `uc ]
+"67
+[e ( _clcd_print (2 , :s 4C -> + -> 128 `i -> 0 `i `uc ]
+"68
+[e ( _clcd_putch (2 , -> + -> _attempts_left `ui -> 48 `ui `uc -> + -> 192 `i -> 0 `i `uc ]
+"69
+[e ( _clcd_print (2 , :s 5C -> + -> 192 `i -> 1 `i `uc ]
+"71
+{
+[v _wait `Vul ~T0 @X0 1 a ]
+[e = _wait -> -> -> 0 `i `l `ul ]
+[e $ < _wait -> -> 200000 `l `ul 114  ]
+[e $U 115  ]
+[e :U 114 ]
+[e ++ _wait -> -> 1 `i `Vul ]
+[e $ < _wait -> -> 200000 `l `ul 114  ]
+[e :U 115 ]
+}
+"73
+[e = _i -> -> 0 `i `uc ]
+"74
+[e ( _clcd_clear ..  ]
+"76
+[e $ ! > -> _attempts_left `i -> 0 `i 117  ]
+{
+"77
+[e ( _show_login_screen ..  ]
+"78
+}
+[e :U 117 ]
+"79
+}
+[e :U 113 ]
+"80
+}
+[e :U 108 ]
+"81
+[e :UE 107 ]
+}
+"83
+[v _handle_lockout `(v ~T0 @X0 1 ef ]
+{
+[e :U _handle_lockout ]
+[f ]
+"84
+[e ( _clcd_print (2 , :s 6C -> + -> 128 `i -> 0 `i `uc ]
+"85
+[e ( _clcd_print (2 , :s 7C -> + -> 192 `i -> 0 `i `uc ]
+"86
+[e :U 120 ]
+[e :U 119 ]
+[e $U 120  ]
+[e :U 121 ]
+"87
+[e :UE 118 ]
+}
+"89
+[v _get_attempts_left `(uc ~T0 @X0 1 ef ]
+{
+[e :U _get_attempts_left ]
+[f ]
+"90
+[e ) _attempts_left ]
+[e $UE 122  ]
+"91
+[e :UE 122 ]
+}
+[a 3C 65 99 99 101 115 115 32 71 114 97 110 116 101 100 32 32 0 ]
+[a 2C 67 111 114 114 101 99 116 32 69 110 116 114 121 32 32 32 0 ]
+[a 4C 73 110 118 97 108 105 100 32 69 110 116 114 121 32 32 32 0 ]
+[a 7C 67 111 110 116 97 99 116 32 65 100 109 105 110 32 32 32 0 ]
+[a 6C 68 101 118 105 99 101 32 76 111 99 107 101 100 32 32 32 0 ]
+[a 1C 80 97 115 115 87 111 114 100 58 32 32 32 32 32 32 32 0 ]
+[a 5C 32 76 101 102 116 33 32 32 32 32 32 32 32 32 0 ]

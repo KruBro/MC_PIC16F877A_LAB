@@ -1,0 +1,29 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"3 /home/krubro/Desktop/Emertxe/MC-Assignments/AS-10/mystrcmp.c
+[v _my_strcmp `(i ~T0 @X0 1 ef2`*Cuc`*Cuc ]
+{
+[e :U _my_strcmp ]
+[v _s1 `*Cuc ~T0 @X0 1 r1 ]
+[v _s2 `*Cuc ~T0 @X0 1 r2 ]
+[f ]
+"4
+[v _i `ui ~T0 @X0 1 a ]
+[e = _i -> -> 0 `i `ui ]
+"5
+[e $U 2  ]
+[e :U 3 ]
+{
+"6
+[e ++ _i -> -> 1 `i `ui ]
+"7
+}
+[e :U 2 ]
+"5
+[e $ && != -> *U + _s1 * -> _i `ux -> -> # *U _s1 `ui `ux `ui -> 0 `ui == -> *U + _s1 * -> _i `ux -> -> # *U _s1 `ui `ux `i -> *U + _s2 * -> _i `ux -> -> # *U _s2 `ui `ux `i 3  ]
+[e :U 4 ]
+"8
+[e ) - -> -> *U + _s1 * -> _i `ux -> -> # *U _s1 `ui `ux `uc `i -> -> *U + _s2 * -> _i `ux -> -> # *U _s2 `ui `ux `uc `i ]
+[e $UE 1  ]
+"9
+[e :UE 1 ]
+}

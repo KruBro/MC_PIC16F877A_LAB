@@ -1,0 +1,283 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"2781 /home/krubro/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8/pic/include/proc/pic16f877a.h
+[v _RE2 `Vb ~T0 @X0 0 e@74 ]
+"338
+[v _PORTD `Vuc ~T0 @X0 0 e@8 ]
+"2778
+[v _RE1 `Vb ~T0 @X0 0 e@73 ]
+[v F164 `(v ~T0 @X0 1 tf1`ul ]
+"20 /opt/microchip/xc8/v3.10/pic/include/builtins.h
+[v __delay `JF164 ~T0 @X0 0 e ]
+[p i __delay ]
+"1497 /home/krubro/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8/pic/include/proc/pic16f877a.h
+[v _TRISD `Vuc ~T0 @X0 0 e@136 ]
+"3015
+[v _TRISE2 `Vb ~T0 @X0 0 e@1098 ]
+"3012
+[v _TRISE1 `Vb ~T0 @X0 0 e@1097 ]
+"52 /home/krubro/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8/pic/include/proc/pic16f877a.h
+[; <" INDF equ 00h ;# ">
+"59
+[; <" TMR0 equ 01h ;# ">
+"66
+[; <" PCL equ 02h ;# ">
+"73
+[; <" STATUS equ 03h ;# ">
+"159
+[; <" FSR equ 04h ;# ">
+"166
+[; <" PORTA equ 05h ;# ">
+"216
+[; <" PORTB equ 06h ;# ">
+"278
+[; <" PORTC equ 07h ;# ">
+"340
+[; <" PORTD equ 08h ;# ">
+"402
+[; <" PORTE equ 09h ;# ">
+"434
+[; <" PCLATH equ 0Ah ;# ">
+"454
+[; <" INTCON equ 0Bh ;# ">
+"532
+[; <" PIR1 equ 0Ch ;# ">
+"594
+[; <" PIR2 equ 0Dh ;# ">
+"634
+[; <" TMR1 equ 0Eh ;# ">
+"641
+[; <" TMR1L equ 0Eh ;# ">
+"648
+[; <" TMR1H equ 0Fh ;# ">
+"655
+[; <" T1CON equ 010h ;# ">
+"730
+[; <" TMR2 equ 011h ;# ">
+"737
+[; <" T2CON equ 012h ;# ">
+"808
+[; <" SSPBUF equ 013h ;# ">
+"815
+[; <" SSPCON equ 014h ;# ">
+"885
+[; <" CCPR1 equ 015h ;# ">
+"892
+[; <" CCPR1L equ 015h ;# ">
+"899
+[; <" CCPR1H equ 016h ;# ">
+"906
+[; <" CCP1CON equ 017h ;# ">
+"964
+[; <" RCSTA equ 018h ;# ">
+"1059
+[; <" TXREG equ 019h ;# ">
+"1066
+[; <" RCREG equ 01Ah ;# ">
+"1073
+[; <" CCPR2 equ 01Bh ;# ">
+"1080
+[; <" CCPR2L equ 01Bh ;# ">
+"1087
+[; <" CCPR2H equ 01Ch ;# ">
+"1094
+[; <" CCP2CON equ 01Dh ;# ">
+"1152
+[; <" ADRESH equ 01Eh ;# ">
+"1159
+[; <" ADCON0 equ 01Fh ;# ">
+"1255
+[; <" OPTION_REG equ 081h ;# ">
+"1325
+[; <" TRISA equ 085h ;# ">
+"1375
+[; <" TRISB equ 086h ;# ">
+"1437
+[; <" TRISC equ 087h ;# ">
+"1499
+[; <" TRISD equ 088h ;# ">
+"1561
+[; <" TRISE equ 089h ;# ">
+"1618
+[; <" PIE1 equ 08Ch ;# ">
+"1680
+[; <" PIE2 equ 08Dh ;# ">
+"1720
+[; <" PCON equ 08Eh ;# ">
+"1754
+[; <" SSPCON2 equ 091h ;# ">
+"1816
+[; <" PR2 equ 092h ;# ">
+"1823
+[; <" SSPADD equ 093h ;# ">
+"1830
+[; <" SSPSTAT equ 094h ;# ">
+"1999
+[; <" TXSTA equ 098h ;# ">
+"2080
+[; <" SPBRG equ 099h ;# ">
+"2087
+[; <" CMCON equ 09Ch ;# ">
+"2157
+[; <" CVRCON equ 09Dh ;# ">
+"2222
+[; <" ADRESL equ 09Eh ;# ">
+"2229
+[; <" ADCON1 equ 09Fh ;# ">
+"2288
+[; <" EEDATA equ 010Ch ;# ">
+"2295
+[; <" EEADR equ 010Dh ;# ">
+"2302
+[; <" EEDATH equ 010Eh ;# ">
+"2309
+[; <" EEADRH equ 010Fh ;# ">
+"2316
+[; <" EECON1 equ 018Ch ;# ">
+"2361
+[; <" EECON2 equ 018Dh ;# ">
+"4 /home/krubro/Desktop/Emertxe/MC-Assignments/AS-10/clcd.c
+[v _clcd_write `(v ~T0 @X0 1 sf2`uc`uc ]
+"5
+{
+[e :U _clcd_write ]
+"4
+[v _byte `uc ~T0 @X0 1 r1 ]
+[v _mode `uc ~T0 @X0 1 r2 ]
+"5
+[f ]
+"6
+[e = _RE2 -> _mode `b ]
+"7
+[e = _PORTD _byte ]
+"9
+[e = _RE1 -> -> 1 `i `b ]
+"10
+[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 20000000 `l `d .4000000.0 `ul ]
+"11
+[e = _RE1 -> -> 0 `i `b ]
+"13
+[e ( __delay (1 -> * -> -> 4100 `i `d / -> -> 20000000 `l `d .4000000.0 `ul ]
+"14
+[e :UE 99 ]
+}
+"16
+[v _init_display_controller `(v ~T0 @X0 1 sf ]
+"17
+{
+[e :U _init_display_controller ]
+[f ]
+"19
+[e ( __delay (1 -> * -> -> 30 `i `d / -> -> 20000000 `l `d .4000.0 `ul ]
+"22
+[e ( _clcd_write (2 , -> -> 51 `i `uc -> -> 0 `i `uc ]
+"23
+[e ( __delay (1 -> * -> -> 4100 `i `d / -> -> 20000000 `l `d .4000000.0 `ul ]
+"24
+[e ( _clcd_write (2 , -> -> 51 `i `uc -> -> 0 `i `uc ]
+"25
+[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 20000000 `l `d .4000000.0 `ul ]
+"26
+[e ( _clcd_write (2 , -> -> 51 `i `uc -> -> 0 `i `uc ]
+"27
+[e ( __delay (1 -> * -> -> 1 `i `d / -> -> 20000000 `l `d .4000000.0 `ul ]
+"29
+[e ( _clcd_write (2 , -> -> 56 `i `uc -> -> 0 `i `uc ]
+"30
+[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 20000000 `l `d .4000000.0 `ul ]
+"31
+[e ( _clcd_write (2 , -> -> 1 `i `uc -> -> 0 `i `uc ]
+"32
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 20000000 `l `d .4000000.0 `ul ]
+"33
+[e ( _clcd_write (2 , -> -> 12 `i `uc -> -> 0 `i `uc ]
+"34
+[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 20000000 `l `d .4000000.0 `ul ]
+"35
+[e :UE 100 ]
+}
+"37
+[v _init_clcd `(v ~T0 @X0 1 ef ]
+"38
+{
+[e :U _init_clcd ]
+[f ]
+"40
+[e = _TRISD -> -> 0 `i `uc ]
+"43
+[e = _TRISE2 -> -> 0 `i `b ]
+"44
+[e = _TRISE1 -> -> 0 `i `b ]
+"46
+[e ( _init_display_controller ..  ]
+"47
+[e :UE 101 ]
+}
+"49
+[v _clcd_putch `(v ~T0 @X0 1 ef2`Cuc`uc ]
+"50
+{
+[e :U _clcd_putch ]
+"49
+[v _data `Cuc ~T0 @X0 1 r1 ]
+[v _addr `uc ~T0 @X0 1 r2 ]
+"50
+[f ]
+"51
+[e ( _clcd_write (2 , _addr -> -> 0 `i `uc ]
+"52
+[e ( _clcd_write (2 , -> _data `uc -> -> 1 `i `uc ]
+"53
+[e :UE 102 ]
+}
+"55
+[v _clcd_print `(v ~T0 @X0 1 ef2`*Cuc`uc ]
+"56
+{
+[e :U _clcd_print ]
+"55
+[v _str `*Cuc ~T0 @X0 1 r1 ]
+[v _addr `uc ~T0 @X0 1 r2 ]
+"56
+[f ]
+"57
+[e ( _clcd_write (2 , _addr -> -> 0 `i `uc ]
+"59
+[e $U 104  ]
+[e :U 105 ]
+"60
+{
+"61
+[e ( _clcd_write (2 , -> *U _str `uc -> -> 1 `i `uc ]
+"62
+[e ++ _str * -> -> 1 `i `x -> -> # *U _str `i `x ]
+"63
+}
+[e :U 104 ]
+"59
+[e $ != -> *U _str `ui -> 0 `ui 105  ]
+[e :U 106 ]
+"64
+[e :UE 103 ]
+}
+"66
+[v _clcd_clear `(v ~T0 @X0 1 ef ]
+"67
+{
+[e :U _clcd_clear ]
+[f ]
+"68
+[e ( _clcd_write (2 , -> -> 1 `i `uc -> -> 0 `i `uc ]
+"69
+{
+[v _i `uc ~T0 @X0 1 a ]
+[e = _i -> -> 0 `i `uc ]
+[e $ < -> _i `i -> 50 `i 108  ]
+[e $U 109  ]
+[e :U 108 ]
+[e ++ _i -> -> 1 `i `uc ]
+[e $ < -> _i `i -> 50 `i 108  ]
+[e :U 109 ]
+}
+"70
+[e :UE 107 ]
+}
