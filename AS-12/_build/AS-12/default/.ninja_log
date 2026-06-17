@@ -1,0 +1,7 @@
+# ninja log v7
+3	165	1776966772594268859	CMakeFiles/AS_12_default_default_XC8_compile.dir/home/krubro/Desktop/Emertxe/MC-Assignments/AS-12/timer0.c.p1	12a141838d9b5561
+2	165	1776966772592144497	CMakeFiles/AS_12_default_default_XC8_compile.dir/home/krubro/Desktop/Emertxe/MC-Assignments/AS-12/isr.c.p1	d7bdc1a6dc688930
+1	165	1776966772591144509	CMakeFiles/AS_12_default_default_XC8_compile.dir/home/krubro/Desktop/Emertxe/MC-Assignments/AS-12/adc.c.p1	d9d15657f0853cf6
+2	165	1776966772593683938	CMakeFiles/AS_12_default_default_XC8_compile.dir/home/krubro/Desktop/Emertxe/MC-Assignments/AS-12/pwm.c.p1	d8428d1220a69beb
+2	166	1776966772593268243	CMakeFiles/AS_12_default_default_XC8_compile.dir/home/krubro/Desktop/Emertxe/MC-Assignments/AS-12/main.c.p1	fe69f9affa057d6f
+166	807	1776966772756171943	/home/krubro/Desktop/Emertxe/MC-Assignments/AS-12/out/AS-12/default.elf	94aed3dd99c45022

@@ -1,0 +1,11 @@
+# ninja log v7
+2	112	1777227119559138510	CMakeFiles/AS_15_default_default_XC8_compile.dir/home/krubro/Desktop/Emertxe/MC-Assignments/AS-15/read_digital_keypad.c.p1	32fd2ab6f757014
+3	70	1777227287810211330	CMakeFiles/AS_15_default_default_XC8_compile.dir/home/krubro/Desktop/Emertxe/MC-Assignments/AS-15/uart.c.p1	4d4fa6704e60e87
+2	65	1777227732134446023	CMakeFiles/AS_15_default_default_XC8_compile.dir/home/krubro/Desktop/Emertxe/MC-Assignments/AS-15/main.c.p1	ec4338bf41c44240
+2	66	1777227732135097223	CMakeFiles/AS_15_default_default_XC8_compile.dir/home/krubro/Desktop/Emertxe/MC-Assignments/AS-15/read_digital_keypad.c.p1	32fd2ab6f757014
+2	63	1777227767600016599	CMakeFiles/AS_15_default_default_XC8_compile.dir/home/krubro/Desktop/Emertxe/MC-Assignments/AS-15/isr.c.p1	7ad7949751ed5491
+2	69	1777227767601287361	CMakeFiles/AS_15_default_default_XC8_compile.dir/home/krubro/Desktop/Emertxe/MC-Assignments/AS-15/main.c.p1	ec4338bf41c44240
+3	82	1777227767601776739	CMakeFiles/AS_15_default_default_XC8_compile.dir/home/krubro/Desktop/Emertxe/MC-Assignments/AS-15/uart.c.p1	4d4fa6704e60e87
+82	628	1777227767680798900	/home/krubro/Desktop/Emertxe/MC-Assignments/AS-15/out/AS-15/production/default-production.elf	6b86b8899905d41e
+2	94	1777228013848034981	CMakeFiles/AS_15_default_default_XC8_compile.dir/home/krubro/Desktop/Emertxe/MC-Assignments/AS-15/main.c.p1	ec4338bf41c44240
+95	595	1777228013941033855	/home/krubro/Desktop/Emertxe/MC-Assignments/AS-15/out/AS-15/production/default-production.elf	6b86b8899905d41e

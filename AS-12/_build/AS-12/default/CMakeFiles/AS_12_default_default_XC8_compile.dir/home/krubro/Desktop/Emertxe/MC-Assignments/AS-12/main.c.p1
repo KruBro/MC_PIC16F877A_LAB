@@ -1,0 +1,191 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"5 /home/krubro/Desktop/Emertxe/MC-Assignments/AS-12/timer0.h
+[v _initTimer0 `(v ~T0 @X0 0 e? ]
+"4 /home/krubro/Desktop/Emertxe/MC-Assignments/AS-12/adc.h
+[v _initADC `(v ~T0 @X0 0 e? ]
+"6 /home/krubro/Desktop/Emertxe/MC-Assignments/AS-12/pwm.h
+[v _initPWM `(v ~T0 @X0 0 e? ]
+[p mainexit ]
+"5 /home/krubro/Desktop/Emertxe/MC-Assignments/AS-12/adc.h
+[v _read_adc_channel `(us ~T0 @X0 0 ef1`uc ]
+"8 /home/krubro/Desktop/Emertxe/MC-Assignments/AS-12/pwm.h
+[v _pwm_control `(v ~T0 @X0 0 ef1`us ]
+"38 /home/krubro/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.8.167/xc8/pic/include/proc/pic16f877a.h
+[; <" INDF equ 00h ;# ">
+"45
+[; <" TMR0 equ 01h ;# ">
+"52
+[; <" PCL equ 02h ;# ">
+"59
+[; <" STATUS equ 03h ;# ">
+"145
+[; <" FSR equ 04h ;# ">
+"152
+[; <" PORTA equ 05h ;# ">
+"202
+[; <" PORTB equ 06h ;# ">
+"264
+[; <" PORTC equ 07h ;# ">
+"326
+[; <" PORTD equ 08h ;# ">
+"388
+[; <" PORTE equ 09h ;# ">
+"420
+[; <" PCLATH equ 0Ah ;# ">
+"440
+[; <" INTCON equ 0Bh ;# ">
+"518
+[; <" PIR1 equ 0Ch ;# ">
+"580
+[; <" PIR2 equ 0Dh ;# ">
+"620
+[; <" TMR1 equ 0Eh ;# ">
+"627
+[; <" TMR1L equ 0Eh ;# ">
+"634
+[; <" TMR1H equ 0Fh ;# ">
+"641
+[; <" T1CON equ 010h ;# ">
+"716
+[; <" TMR2 equ 011h ;# ">
+"723
+[; <" T2CON equ 012h ;# ">
+"794
+[; <" SSPBUF equ 013h ;# ">
+"801
+[; <" SSPCON equ 014h ;# ">
+"871
+[; <" CCPR1 equ 015h ;# ">
+"878
+[; <" CCPR1L equ 015h ;# ">
+"885
+[; <" CCPR1H equ 016h ;# ">
+"892
+[; <" CCP1CON equ 017h ;# ">
+"950
+[; <" RCSTA equ 018h ;# ">
+"1045
+[; <" TXREG equ 019h ;# ">
+"1052
+[; <" RCREG equ 01Ah ;# ">
+"1059
+[; <" CCPR2 equ 01Bh ;# ">
+"1066
+[; <" CCPR2L equ 01Bh ;# ">
+"1073
+[; <" CCPR2H equ 01Ch ;# ">
+"1080
+[; <" CCP2CON equ 01Dh ;# ">
+"1138
+[; <" ADRESH equ 01Eh ;# ">
+"1145
+[; <" ADCON0 equ 01Fh ;# ">
+"1241
+[; <" OPTION_REG equ 081h ;# ">
+"1311
+[; <" TRISA equ 085h ;# ">
+"1361
+[; <" TRISB equ 086h ;# ">
+"1423
+[; <" TRISC equ 087h ;# ">
+"1485
+[; <" TRISD equ 088h ;# ">
+"1547
+[; <" TRISE equ 089h ;# ">
+"1604
+[; <" PIE1 equ 08Ch ;# ">
+"1666
+[; <" PIE2 equ 08Dh ;# ">
+"1706
+[; <" PCON equ 08Eh ;# ">
+"1740
+[; <" SSPCON2 equ 091h ;# ">
+"1802
+[; <" PR2 equ 092h ;# ">
+"1809
+[; <" SSPADD equ 093h ;# ">
+"1816
+[; <" SSPSTAT equ 094h ;# ">
+"1985
+[; <" TXSTA equ 098h ;# ">
+"2066
+[; <" SPBRG equ 099h ;# ">
+"2073
+[; <" CMCON equ 09Ch ;# ">
+"2143
+[; <" CVRCON equ 09Dh ;# ">
+"2208
+[; <" ADRESL equ 09Eh ;# ">
+"2215
+[; <" ADCON1 equ 09Fh ;# ">
+"2274
+[; <" EEDATA equ 010Ch ;# ">
+"2281
+[; <" EEADR equ 010Dh ;# ">
+"2288
+[; <" EEDATH equ 010Eh ;# ">
+"2295
+[; <" EEADRH equ 010Fh ;# ">
+"2302
+[; <" EECON1 equ 018Ch ;# ">
+"2347
+[; <" EECON2 equ 018Dh ;# ">
+"6 /home/krubro/Desktop/Emertxe/MC-Assignments/AS-12/main.c
+[p x WDTE  =  OFF        ]
+"8
+[v _initConfig `(v ~T0 @X0 1 ef ]
+"9
+{
+[e :U _initConfig ]
+[f ]
+"10
+[e ( _initTimer0 ..  ]
+"11
+[e ( _initADC ..  ]
+"12
+[e ( _initPWM ..  ]
+"13
+[e :UE 99 ]
+}
+[v $root$_main `(v ~T0 @X0 0 e ]
+"15
+[v _main `(i ~T0 @X0 1 ef ]
+{
+[e :U _main ]
+[f ]
+"16
+[e ( _initConfig ..  ]
+"18
+[v _curr_val `us ~T0 @X0 1 a ]
+[e = _curr_val -> -> 0 `i `us ]
+"19
+[v _prev_val `us ~T0 @X0 1 a ]
+[e = _prev_val -> -> 65535 `ui `us ]
+"21
+[e :U 102 ]
+"22
+{
+"24
+[e = _curr_val ( _read_adc_channel (1 -> -> 0 `i `uc ]
+"27
+[e $ ! != -> _curr_val `ui -> _prev_val `ui 104  ]
+"28
+{
+"29
+[e = _prev_val _curr_val ]
+"30
+[e ( _pwm_control (1 _curr_val ]
+"31
+}
+[e :U 104 ]
+"33
+}
+[e :U 101 ]
+[e $U 102  ]
+[e :U 103 ]
+"35
+[e ) -> 0 `i ]
+[e $UE 100  ]
+"36
+[e :UE 100 ]
+}

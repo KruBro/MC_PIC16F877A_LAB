@@ -1,0 +1,186 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"4 /home/krubro/Desktop/Emertxe/MC-Assignments/AS-12/adc.c
+[v _initADC initADC `(v  1 e 1 0 ]
+"18
+[v _read_adc_channel read_adc_channel `(us  1 e 2 0 ]
+"7 /home/krubro/Desktop/Emertxe/MC-Assignments/AS-12/isr.c
+[v _isr isr `II(v  1 e 1 0 ]
+"8 /home/krubro/Desktop/Emertxe/MC-Assignments/AS-12/main.c
+[v _initConfig initConfig `(v  1 e 1 0 ]
+"15
+[v _main main `(i  1 e 2 0 ]
+"6 /home/krubro/Desktop/Emertxe/MC-Assignments/AS-12/pwm.c
+[v _initPWM initPWM `(v  1 e 1 0 ]
+"13
+[v _set_pwm_duty set_pwm_duty `(v  1 e 1 0 ]
+"19
+[v _pwm_control pwm_control `(v  1 e 1 0 ]
+"4 /home/krubro/Desktop/Emertxe/MC-Assignments/AS-12/timer0.c
+[v _initTimer0 initTimer0 `(v  1 e 1 0 ]
+"43 /opt/microchip/xc8/v3.10/pic/sources/c99/common/fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"10 /opt/microchip/xc8/v3.10/pic/sources/c99/common/sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"8 /opt/microchip/xc8/v3.10/pic/sources/c99/common/sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"4 /opt/microchip/xc8/v3.10/pic/sources/c99/common/Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"10 /opt/microchip/xc8/v3.10/pic/sources/c99/common/xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+"6 /opt/microchip/xc8/v3.10/pic/sources/c99/pic/__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"43 /home/krubro/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.8.167/xc8/pic/include/proc/pic16f877a.h
+[v _TMR0 TMR0 `VEuc  1 e 1 @1 ]
+"1136
+[v _ADRESH ADRESH `VEuc  1 e 1 @30 ]
+"1143
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @31 ]
+"2206
+[v _ADRESL ADRESL `VEuc  1 e 1 @158 ]
+"2213
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @159 ]
+"2371
+[v _ADCS0 ADCS0 `VEb  1 e 0 @254 ]
+"2374
+[v _ADCS1 ADCS1 `VEb  1 e 0 @255 ]
+"2377
+[v _ADCS2 ADCS2 `VEb  1 e 0 @1278 ]
+"2392
+[v _ADON ADON `VEb  1 e 0 @248 ]
+"2557
+[v _GIE GIE `VEb  1 e 0 @95 ]
+"2566
+[v _GO_nDONE GO_nDONE `VEb  1 e 0 @250 ]
+"2617
+[v _PEIE PEIE `VEb  1 e 0 @94 ]
+"2632
+[v _PSA PSA `VEb  1 e 0 @1035 ]
+"2737
+[v _RD0 RD0 `VEb  1 e 0 @64 ]
+"2833
+[v _T0CS T0CS `VEb  1 e 0 @1037 ]
+"2866
+[v _TMR0IE TMR0IE `VEb  1 e 0 @93 ]
+"2869
+[v _TMR0IF TMR0IF `VEb  1 e 0 @90 ]
+"2971
+[v _TRISD0 TRISD0 `VEb  1 e 0 @1088 ]
+"5 /home/krubro/Desktop/Emertxe/MC-Assignments/AS-12/isr.c
+[v _timer_cycle timer_cycle `uc  1 e 1 0 ]
+"4 /home/krubro/Desktop/Emertxe/MC-Assignments/AS-12/pwm.c
+[v _duty_cycle duty_cycle `uc  1 e 1 0 ]
+"15 /home/krubro/Desktop/Emertxe/MC-Assignments/AS-12/main.c
+[v _main main `(i  1 e 2 0 ]
+{
+"18
+[v main@curr_val curr_val `us  1 a 2 47 ]
+"19
+[v main@prev_val prev_val `us  1 a 2 45 ]
+"36
+} 0
+"18 /home/krubro/Desktop/Emertxe/MC-Assignments/AS-12/adc.c
+[v _read_adc_channel read_adc_channel `(us  1 e 2 0 ]
+{
+[v read_adc_channel@channel channel `uc  1 p 1 wreg ]
+"20
+[v read_adc_channel@adc_reg_val adc_reg_val `us  1 a 2 5 ]
+"18
+[v read_adc_channel@channel channel `uc  1 p 1 wreg ]
+"23
+[v read_adc_channel@channel channel `uc  1 p 1 4 ]
+"35
+} 1
+"19 /home/krubro/Desktop/Emertxe/MC-Assignments/AS-12/pwm.c
+[v _pwm_control pwm_control `(v  1 e 1 0 ]
+{
+"22
+[v pwm_control@calculated_duty calculated_duty `uc  1 a 1 44 ]
+"19
+[v pwm_control@adc_val adc_val `us  1 p 2 42 ]
+"24
+} 0
+"13
+[v _set_pwm_duty set_pwm_duty `(v  1 e 1 0 ]
+{
+[v set_pwm_duty@duty duty `uc  1 p 1 wreg ]
+[v set_pwm_duty@duty duty `uc  1 p 1 wreg ]
+"16
+[v set_pwm_duty@duty duty `uc  1 p 1 2 ]
+"17
+} 1
+"10 /opt/microchip/xc8/v3.10/pic/sources/c99/common/xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+{
+[v ___xxtofl@sign sign `uc  1 p 1 wreg ]
+"13
+[v ___xxtofl@arg arg `ul  1 a 4 2 ]
+"12
+[v ___xxtofl@exp exp `uc  1 a 1 1 ]
+"10
+[v ___xxtofl@sign sign `uc  1 p 1 wreg ]
+[v ___xxtofl@val val `l  1 p 4 2 ]
+"15
+[v ___xxtofl@sign sign `uc  1 p 1 0 ]
+"44
+} 1
+"43 /opt/microchip/xc8/v3.10/pic/sources/c99/common/fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+{
+"45
+[v ___fltol@exp1 exp1 `uc  1 a 1 41 ]
+[v ___fltol@sign1 sign1 `uc  1 a 1 40 ]
+"43
+[v ___fltol@f1 f1 `d  1 p 4 32 ]
+"70
+} 0
+"8 /opt/microchip/xc8/v3.10/pic/sources/c99/common/sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+{
+"21
+[v ___fldiv@grs grs `ul  1 a 4 26 ]
+"22
+[v ___fldiv@rem rem `ul  1 a 4 19 ]
+"20
+[v ___fldiv@new_exp new_exp `s  1 a 2 24 ]
+"19
+[v ___fldiv@aexp aexp `uc  1 a 1 31 ]
+"18
+[v ___fldiv@bexp bexp `uc  1 a 1 30 ]
+"16
+[v ___fldiv@sign sign `uc  1 a 1 23 ]
+"8
+[v ___fldiv@a a `d  1 p 4 6 ]
+[v ___fldiv@b b `d  1 p 4 10 ]
+"185
+} 0
+"8 /home/krubro/Desktop/Emertxe/MC-Assignments/AS-12/main.c
+[v _initConfig initConfig `(v  1 e 1 0 ]
+{
+"13
+} 0
+"4 /home/krubro/Desktop/Emertxe/MC-Assignments/AS-12/timer0.c
+[v _initTimer0 initTimer0 `(v  1 e 1 0 ]
+{
+"14
+} 0
+"6 /home/krubro/Desktop/Emertxe/MC-Assignments/AS-12/pwm.c
+[v _initPWM initPWM `(v  1 e 1 0 ]
+{
+"11
+} 0
+"4 /home/krubro/Desktop/Emertxe/MC-Assignments/AS-12/adc.c
+[v _initADC initADC `(v  1 e 1 0 ]
+{
+"16
+} 0
+"7 /home/krubro/Desktop/Emertxe/MC-Assignments/AS-12/isr.c
+[v _isr isr `II(v  1 e 1 0 ]
+{
+"31
+} 0

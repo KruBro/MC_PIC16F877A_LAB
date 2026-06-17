@@ -1,0 +1,261 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"13 /home/krubro/Desktop/Emertxe/MC-Assignments/AS-15/digital_keypad.h
+[v _init_digital_keypad `(v ~T0 @X0 0 e? ]
+"18 /home/krubro/Desktop/Emertxe/MC-Assignments/AS-15/ssd.h
+[v _ssdInit `(v ~T0 @X0 0 e? ]
+[p mainexit ]
+"115 /opt/microchip/xc8/v3.10/pic/include/eeprom_routines.h
+[v _eeprom_read `(uc ~T0 @X0 0 ef1`uc ]
+"19 /home/krubro/Desktop/Emertxe/MC-Assignments/AS-15/ssd.h
+[v _display `(v ~T0 @X0 0 ef1`*uc ]
+"14 /home/krubro/Desktop/Emertxe/MC-Assignments/AS-15/digital_keypad.h
+[v _read_digital_keypad `(uc ~T0 @X0 0 ef1`uc ]
+"114 /opt/microchip/xc8/v3.10/pic/include/eeprom_routines.h
+[v _eeprom_write `(v ~T0 @X0 0 ef2`uc`uc ]
+"38 /home/krubro/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.8.167/xc8/pic/include/proc/pic16f877a.h
+[; <" INDF equ 00h ;# ">
+"45
+[; <" TMR0 equ 01h ;# ">
+"52
+[; <" PCL equ 02h ;# ">
+"59
+[; <" STATUS equ 03h ;# ">
+"145
+[; <" FSR equ 04h ;# ">
+"152
+[; <" PORTA equ 05h ;# ">
+"202
+[; <" PORTB equ 06h ;# ">
+"264
+[; <" PORTC equ 07h ;# ">
+"326
+[; <" PORTD equ 08h ;# ">
+"388
+[; <" PORTE equ 09h ;# ">
+"420
+[; <" PCLATH equ 0Ah ;# ">
+"440
+[; <" INTCON equ 0Bh ;# ">
+"518
+[; <" PIR1 equ 0Ch ;# ">
+"580
+[; <" PIR2 equ 0Dh ;# ">
+"620
+[; <" TMR1 equ 0Eh ;# ">
+"627
+[; <" TMR1L equ 0Eh ;# ">
+"634
+[; <" TMR1H equ 0Fh ;# ">
+"641
+[; <" T1CON equ 010h ;# ">
+"716
+[; <" TMR2 equ 011h ;# ">
+"723
+[; <" T2CON equ 012h ;# ">
+"794
+[; <" SSPBUF equ 013h ;# ">
+"801
+[; <" SSPCON equ 014h ;# ">
+"871
+[; <" CCPR1 equ 015h ;# ">
+"878
+[; <" CCPR1L equ 015h ;# ">
+"885
+[; <" CCPR1H equ 016h ;# ">
+"892
+[; <" CCP1CON equ 017h ;# ">
+"950
+[; <" RCSTA equ 018h ;# ">
+"1045
+[; <" TXREG equ 019h ;# ">
+"1052
+[; <" RCREG equ 01Ah ;# ">
+"1059
+[; <" CCPR2 equ 01Bh ;# ">
+"1066
+[; <" CCPR2L equ 01Bh ;# ">
+"1073
+[; <" CCPR2H equ 01Ch ;# ">
+"1080
+[; <" CCP2CON equ 01Dh ;# ">
+"1138
+[; <" ADRESH equ 01Eh ;# ">
+"1145
+[; <" ADCON0 equ 01Fh ;# ">
+"1241
+[; <" OPTION_REG equ 081h ;# ">
+"1311
+[; <" TRISA equ 085h ;# ">
+"1361
+[; <" TRISB equ 086h ;# ">
+"1423
+[; <" TRISC equ 087h ;# ">
+"1485
+[; <" TRISD equ 088h ;# ">
+"1547
+[; <" TRISE equ 089h ;# ">
+"1604
+[; <" PIE1 equ 08Ch ;# ">
+"1666
+[; <" PIE2 equ 08Dh ;# ">
+"1706
+[; <" PCON equ 08Eh ;# ">
+"1740
+[; <" SSPCON2 equ 091h ;# ">
+"1802
+[; <" PR2 equ 092h ;# ">
+"1809
+[; <" SSPADD equ 093h ;# ">
+"1816
+[; <" SSPSTAT equ 094h ;# ">
+"1985
+[; <" TXSTA equ 098h ;# ">
+"2066
+[; <" SPBRG equ 099h ;# ">
+"2073
+[; <" CMCON equ 09Ch ;# ">
+"2143
+[; <" CVRCON equ 09Dh ;# ">
+"2208
+[; <" ADRESL equ 09Eh ;# ">
+"2215
+[; <" ADCON1 equ 09Fh ;# ">
+"2274
+[; <" EEDATA equ 010Ch ;# ">
+"2281
+[; <" EEADR equ 010Dh ;# ">
+"2288
+[; <" EEDATH equ 010Eh ;# ">
+"2295
+[; <" EEADRH equ 010Fh ;# ">
+"2302
+[; <" EECON1 equ 018Ch ;# ">
+"2347
+[; <" EECON2 equ 018Dh ;# ">
+"9 /home/krubro/Desktop/Emertxe/MC-Assignments/AS-15/main.c
+[p x WDTE  =  OFF ]
+"11
+[v _init_Config `(v ~T0 @X0 1 ef ]
+"12
+{
+[e :U _init_Config ]
+[f ]
+"13
+[e ( _init_digital_keypad ..  ]
+"14
+[e ( _ssdInit ..  ]
+"15
+[e :UE 99 ]
+}
+[v $root$_main `(v ~T0 @X0 0 e ]
+"17
+[v _main `(i ~T0 @X0 1 ef ]
+"18
+{
+[e :U _main ]
+[f ]
+"19
+[e ( _init_Config ..  ]
+"21
+[v _ssd `uc ~T0 @X0 -> 4 `i a ]
+[v F1015 `uc ~T0 @X0 -> 10 `i s ]
+[i F1015
+:U ..
+"23
+-> -> 63 `i `uc
+-> -> 6 `i `uc
+-> -> 91 `i `uc
+-> -> 79 `i `uc
+-> -> 102 `i `uc
+-> -> 109 `i `uc
+-> -> 125 `i `uc
+-> -> 7 `i `uc
+-> -> 127 `i `uc
+-> -> 111 `i `uc
+..
+]
+[v _digits `uc ~T0 @X0 -> 10 `i a ]
+[e = _digits F1015 ]
+"24
+[v _key `uc ~T0 @X0 1 a ]
+"25
+[v _count `ui ~T0 @X0 1 a ]
+[e = _count -> -> 0 `i `ui ]
+"26
+[v _program_cycle `uc ~T0 @X0 1 a ]
+[e = _program_cycle -> -> 0 `i `uc ]
+"29
+[v _high_byte `uc ~T0 @X0 1 a ]
+[e = _high_byte ( _eeprom_read (1 -> -> 0 `i `uc ]
+"30
+[v _low_byte `uc ~T0 @X0 1 a ]
+[e = _low_byte ( _eeprom_read (1 -> -> 1 `i `uc ]
+"31
+[e = _count | << -> _high_byte `ui -> 8 `i -> _low_byte `ui ]
+"34
+[e $ ! || == _count -> 65535 `ui > _count -> -> 9999 `i `ui 101  ]
+"35
+{
+"36
+[e = _count -> -> 0 `i `ui ]
+"37
+}
+[e :U 101 ]
+"39
+[e :U 103 ]
+"40
+{
+"41
+[e $ ! == -> ++ _program_cycle -> -> 1 `i `uc `i -> 25 `i 105  ]
+"42
+{
+"43
+[e = _program_cycle -> -> 0 `i `uc ]
+"44
+[e ++ _count -> -> 1 `i `ui ]
+"47
+[e $ ! > _count -> -> 9999 `i `ui 106  ]
+"48
+{
+"49
+[e = _count -> -> 0 `i `ui ]
+"50
+}
+[e :U 106 ]
+"51
+}
+[e :U 105 ]
+"53
+[e = *U + &U _ssd * -> -> -> 0 `i `ui `ux -> -> # *U &U _ssd `ui `ux *U + &U _digits * -> / _count -> -> 1000 `i `ui `ux -> -> # *U &U _digits `ui `ux ]
+"54
+[e = *U + &U _ssd * -> -> -> 1 `i `ui `ux -> -> # *U &U _ssd `ui `ux *U + &U _digits * -> % / _count -> -> 100 `i `ui -> -> 10 `i `ui `ux -> -> # *U &U _digits `ui `ux ]
+"55
+[e = *U + &U _ssd * -> -> -> 2 `i `ui `ux -> -> # *U &U _ssd `ui `ux *U + &U _digits * -> % / _count -> -> 10 `i `ui -> -> 10 `i `ui `ux -> -> # *U &U _digits `ui `ux ]
+"56
+[e = *U + &U _ssd * -> -> -> 3 `i `ui `ux -> -> # *U &U _ssd `ui `ux *U + &U _digits * -> % _count -> -> 10 `i `ui `ux -> -> # *U &U _digits `ui `ux ]
+"58
+[e ( _display (1 &U _ssd ]
+"60
+[e = _key ( _read_digital_keypad (1 -> -> 0 `i `uc ]
+"62
+[e $ ! == -> _key `i -> 59 `i 107  ]
+"63
+{
+"65
+[e ( _eeprom_write (2 , -> -> 0 `i `uc -> >> _count -> 8 `i `uc ]
+"66
+[e ( _eeprom_write (2 , -> -> 1 `i `uc -> & _count -> -> 255 `i `ui `uc ]
+"67
+}
+[e :U 107 ]
+"68
+}
+[e :U 102 ]
+[e $U 103  ]
+[e :U 104 ]
+"69
+[e ) -> 0 `i ]
+[e $UE 100  ]
+"70
+[e :UE 100 ]
+}

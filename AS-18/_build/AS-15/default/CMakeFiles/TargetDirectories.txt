@@ -1,0 +1,4 @@
+/home/krubro/Desktop/Emertxe/MC-Assignments/AS-15/_build/AS-15/default/CMakeFiles/AS_15_default_default_XC8_compile.dir
+/home/krubro/Desktop/Emertxe/MC-Assignments/AS-15/_build/AS-15/default/CMakeFiles/AS_15_default_image_I5ecyE7A.dir
+/home/krubro/Desktop/Emertxe/MC-Assignments/AS-15/_build/AS-15/default/CMakeFiles/edit_cache.dir
+/home/krubro/Desktop/Emertxe/MC-Assignments/AS-15/_build/AS-15/default/CMakeFiles/rebuild_cache.dir
